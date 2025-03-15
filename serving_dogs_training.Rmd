@@ -1,0 +1,227 @@
+---
+title: "serving_dog_training_Rmd"
+output: html_document
+date: "2024-10-09"
+---
+
+First of all, loading the data
+```{r}
+dog_training <- read.csv('/Users/ashly/Downloads/dog_training_data.csv')
+
+head(dog_training)
+```
+
+Check some information via Statistical Approach
+
+```{r}
+summary(dog_training)
+```
+
+Scatter Plot with Regression Lines
+
+```{r}
+
+library(ggplot2)
+
+data <- data.frame(
+  Dog_Breed = c('Golden Retriever', 'Border Collie', 'Poodle', 'Beagle', 'Doberman', 
+                'German Shepherd', 'Husky', 'Labrador', 'Rottweiler', 'Belgian Malinois'),
+  Training_Hours = c(285.71, 175.56, 303.48, 206.86, 345.68, 233.43, 180.71, 314.89, 398.41, 343.59),
+  Task_Completion_Rate = c(0.33, 0.2, 0.33, 0.27, 0.4, 0.27, 0.2, 0.33, 0.33, 0.4)
+)
+
+
+ggplot(data, aes(x=Training_Hours, y=Task_Completion_Rate, color=Dog_Breed)) +
+  geom_point(size=3) +  # Scatter plot
+  geom_smooth(method="lm", se=FALSE) +  # Add linear regression lines
+  labs(title="Impact of Dog Breed and Training Hours on Task Completion Rate",
+       x="Training Hours",
+       y="Task Completion Rate") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+Regression Model
+
+```{r}
+
+data$Dog_Breed <- as.factor(data$Dog_Breed)
+
+
+model <- lm(Task_Completion_Rate ~ Training_Hours + Dog_Breed, data=data)
+model
+
+summary(model)
+
+```
+
+
+
+Analysis the Dog Breed and Health Score with some visualization
+
+```{r}
+library(ggplot2)
+
+# Dog Breed
+breed_distribution <- as.data.frame(table(dog_training$Dog_Breed))
+colnames(breed_distribution) <- c("Breed", "Count")
+breed_distribution$Percentage <- round((breed_distribution$Count / sum(breed_distribution$Count)) * 100, 1)
+
+# visualization
+ggplot(breed_distribution, aes(x = "", y = Count, fill = Breed)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +
+  theme_void() +
+  ggtitle("Dog Breed Distribution") +
+  geom_text(aes(label = paste0(Percentage, "%")), position = position_stack(vjust = 0.5))
+
+# Health Score
+dog_training$Health_Score_Cut <- cut(dog_training$Health_Score, breaks = c(60, 70, 80, 90, 100))
+health_score_distribution <- as.data.frame(table(dog_training$Health_Score_Cut))
+colnames(health_score_distribution) <- c("Health_Score_Range", "Count")
+health_score_distribution$Percentage <- round((health_score_distribution$Count / sum(health_score_distribution$Count)) * 100, 1)
+
+# visualization
+ggplot(health_score_distribution, aes(x = "", y = Count, fill = Health_Score_Range)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +
+  theme_void() +
+  ggtitle("Health Score Distribution") +
+  geom_text(aes(label = paste0(Percentage, "%")), position = position_stack(vjust = 0.5))
+
+
+```
+
+
+```{r}
+# If I want to get the Top3 breeds of dogs' count and percentage 
+library(dplyr)
+
+breed_distribution <- as.data.frame(table(dog_training$Dog_Breed))
+colnames(breed_distribution) <- c("Breed", "Count")
+
+breed_distribution$Percentage <- round(breed_distribution$Count/sum(breed_distribution$Count)*100, 1)
+
+top_3_breeds <- breed_distribution %>% 
+  arrange(desc(Count)) %>%
+  head(3)
+
+top_3_breeds
+
+```
+
+
+```{r}
+ggplot(dog_training, aes(x = Training_Hours, y = Task_Completion_Rate)) +
+  geom_point() +
+  facet_grid(Dog_Breed ~ Health_Score_Cut) +
+  ggtitle("Task Completion Rate by Breed and Health Score Range") +
+  xlab("Training Hours") +
+  ylab("Task Completion Rate") +
+  theme(
+    strip.text.y = element_text(size = 8, angle = 0),  
+    strip.text.x = element_text(size = 8),             
+    axis.text = element_text(size = 8),                
+    axis.title = element_text(size = 8),               
+    plot.title = element_text(size = 12)              
+  )
+
+```
+
+Decision tree
+Step1: label the top 10% fastest learners based on Task Completion Rate and Training Hours
+```{r}
+
+#install.packages("caret")
+#install.packages("rpart.plot")
+
+library(dplyr)
+library(caret)
+library(rpart)
+library(rpart.plot)
+
+# Create a 'Fast_Learner' label by ranking dogs based on Task Completion Rate and Training Hours
+# Assuming faster learners have high task completion rate and low training hours
+dog_training <- dog_training %>%
+  mutate(Learning_Score = Task_Completion_Rate / Training_Hours) %>%
+  arrange(desc(Learning_Score)) %>%
+  mutate(Fast_Learner = ifelse(row_number() <= 0.1 * n(), 1, 0))  # Top 10% as Fast Learners
+
+table(dog_training$Fast_Learner)
+
+
+```
+
+Step2: Split the data into training set and testing set
+```{r}
+
+library(dplyr)
+library(caret)
+library(rpart)
+library(rpart.plot)
+
+dog_training <- read.csv('/Users/ashly/Downloads/dog_training_data.csv')
+
+set.seed(123)
+
+# split the data into training (80%) and testing (20%) sets
+sample_index <- sample(1:nrow(dog_training), size = 0.8 * nrow(dog_training))
+
+training_set <- dog_training[sample_index, ]
+testing_set <- dog_training[-sample_index, ]
+
+training_set
+testing_set
+
+```
+
+Step3: Training the decision tree model via rpart package
+```{r}
+# Step1
+dog_training <- dog_training %>%
+  mutate(Learning_Score = Task_Completion_Rate / Training_Hours) %>%
+  arrange(desc(Learning_Score)) %>%
+  mutate(Fast_Learner = ifelse(row_number() <= 0.1 * n(), 1, 0))  
+
+table(dog_training$Fast_Learner)
+
+
+
+# Step2
+set.seed(123)
+
+split_index <- createDataPartition(dog_training$Fast_Learner, p = 0.8, list = FALSE)
+training_set <- dog_training[split_index, ]
+testing_set <- dog_training[-split_index, ]
+
+
+
+# Step3
+train_control <- trainControl(method = "cv", number = 10)
+model <- train(Fast_Learner ~ Training_Hours + Task_Completion_Rate + Health_Score + Stress_Level + Dog_Breed,
+                     data = training_set,
+                     method = "rpart",
+                     trControl = train_control,
+                     tuneLength = 10)
+
+# View the model parameters
+model$bestTune
+
+
+rpart.plot(model$finalModel, type = 3, extra = 101, fallen.leaves = TRUE, main = "Decision Tree for Fast Learners")
+
+
+
+```
+
+
+
+Step4: Evaluating the Model
+```{r}
+
+predictions <- predict(decision_tree_model, testing_set, type = "class")
+
+# Create a confusion matrix to evaluate the performance
+confusionMatrix(as.factor(predictions), as.factor(testing_set$Fast_Learner))
+
+```
