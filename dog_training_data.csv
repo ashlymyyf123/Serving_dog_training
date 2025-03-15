@@ -1,0 +1,501 @@
+Dog_ID,Dog_Name,Dog_Gender,Dog_Breed,Date_of_Birth,Dog_Age,Training_Start_Date,Last_Training_Date,Training_Hours,Complete_Task,Health_Score,Stress_Level,Task_Completion_Rate,Time_Index,Behavioral_Notes
+GR001,Max1,Female,Golden Retriever,2020-01-12,4.7,2020-06-04,2021-04-15,285.71,5,78.27,9.0,0.33,2021-04-15,Max was distracted.
+BC002,Daisy1,Male,Border Collie,2022-06-11,2.3,2022-08-27,2023-05-07,175.56,3,89.52,6.1,0.2,2023-05-07,Daisy needs more focus.
+PO003,Tucker1,Female,Poodle,2019-08-29,5.1,2019-10-01,2024-02-01,303.48,5,76.48,4.1,0.33,2024-02-01,Tucker executed commands flawlessly.
+BE004,Bella1,Male,Beagle,2021-09-27,3.0,2022-05-09,2022-09-15,206.86,4,83.44,3.4,0.27,2022-09-15,Bella showed improvement.
+DO005,Bailey1,Male,Doberman,2018-07-14,6.2,2018-09-22,2022-02-03,345.68,6,70.19,8.8,0.4,2022-02-03,Bailey showed good scent tracking skills.
+BE006,Cooper1,Male,Beagle,2020-03-22,4.6,2020-09-16,2021-03-28,286.71,5,80.66,4.4,0.33,2021-03-28,Cooper showed great agility and focus.
+HU007,Duke1,Female,Husky,2018-10-17,6.0,2019-03-03,2023-01-03,315.68,5,74.37,6.8,0.33,2023-01-03,Duke showed good scent tracking skills.
+GS008,Bailey2,Male,German Shepherd,2020-12-11,3.8,2021-09-03,2023-11-19,233.3,4,85.25,7.2,0.27,2023-11-19,Bailey needs to improve attention span.
+HU009,Charlie1,Male,Husky,2022-06-02,2.4,2022-12-10,2024-02-23,180.71,3,85.11,9.5,0.2,2024-02-23,Charlie was highly energetic and responsive.
+BE010,Sadie1,Female,Beagle,2017-08-19,7.1,2017-11-30,2020-12-18,351.84,6,66.95,5.9,0.4,2020-12-18,Sadie showed good scent tracking skills.
+PO011,Stella1,Female,Poodle,2018-09-20,6.1,2019-02-09,2019-12-19,329.13,5,65.41,1.4,0.33,2019-12-19,Stella was distracted.
+GS012,Duke2,Female,German Shepherd,2022-01-24,2.7,2022-09-08,2023-11-02,205.09,4,86.18,3.3,0.27,2023-11-02,Duke needs more focus.
+LA013,Buddy1,Female,Labrador,2018-12-18,5.8,2019-03-15,2020-12-05,314.89,5,70.54,9.6,0.33,2020-12-05,Buddy performed exceptionally well.
+RO014,Duke3,Male,Rottweiler,2019-06-07,5.3,2020-05-29,2023-05-03,303.11,5,70.03,7.9,0.33,2023-05-03,Duke needs more focus.
+RO015,Max2,Female,Rottweiler,2017-04-19,7.5,2017-05-28,2018-09-28,398.41,6,66.29,8.5,0.4,2018-09-28,Max performed exceptionally well.
+BE016,Charlie2,Male,Beagle,2021-11-23,2.9,2022-02-04,2024-03-24,208.19,4,81.19,7.8,0.27,2024-03-24,Charlie executed commands flawlessly.
+GS017,Sadie2,Male,German Shepherd,2019-10-22,5.0,2020-08-17,2024-02-10,284.43,5,72.12,5.9,0.33,2024-02-10,Sadie needs to improve attention span.
+BM018,Lucy1,Female,Belgian Malinois,2017-11-12,6.9,2018-09-02,2023-10-25,343.59,6,62.75,4.0,0.4,2023-10-25,Lucy showed good scent tracking skills.
+RO019,Tucker2,Male,Rottweiler,2022-09-12,2.1,2022-11-17,2024-09-23,161.1,3,85.17,1.3,0.2,2024-09-23,Tucker was highly energetic and responsive.
+GR020,Molly1,Male,Golden Retriever,2019-08-28,5.1,2020-06-01,2021-09-12,292.82,5,76.73,8.9,0.33,2021-09-12,Molly showed good scent tracking skills.
+DO021,Tucker3,Female,Doberman,2018-03-19,6.6,2018-07-24,2019-09-13,331.38,6,66.31,4.8,0.4,2019-09-13,Tucker showed great agility and focus.
+LA022,Buddy2,Male,Labrador,2018-04-06,6.5,2018-10-26,2020-02-15,333.7,6,64.4,5.0,0.4,2020-02-15,Buddy was slightly distracted but performed well overall.
+GS023,Jack1,Female,German Shepherd,2019-12-23,4.8,2020-02-29,2022-09-23,292.32,5,79.56,1.9,0.33,2022-09-23,Jack needs more focus.
+LA024,Cooper2,Male,Labrador,2020-11-29,3.9,2021-07-25,2024-05-14,245.5,4,84.15,9.1,0.27,2024-05-14,Cooper executed commands flawlessly.
+PO025,Max3,Female,Poodle,2019-10-21,5.0,2020-07-09,2022-03-15,284.42,5,79.57,10.0,0.33,2022-03-15,Max needs more focus.
+DO026,Rocky1,Male,Doberman,2019-06-14,5.3,2019-11-02,2020-03-30,301.92,5,73.92,7.7,0.33,2020-03-30,Rocky showed improvement.
+LA027,Stella2,Female,Labrador,2017-02-20,7.6,2017-12-18,2019-10-23,367.28,6,62.08,8.7,0.4,2019-10-23,Stella was distracted.
+BC028,Cooper3,Male,Border Collie,2018-04-02,6.5,2018-07-02,2021-05-05,346.91,6,62.9,1.7,0.4,2021-05-05,Cooper showed good scent tracking skills.
+BC029,Molly2,Female,Border Collie,2019-11-08,4.9,2020-03-21,2024-01-21,292.4,5,72.89,4.6,0.33,2024-01-21,Molly performed exceptionally well.
+DO030,Bella2,Male,Doberman,2022-09-03,2.1,2023-05-25,2024-05-07,198.69,3,94.46,1.7,0.2,2024-05-07,Bella needs to improve attention span.
+RO031,Jack2,Male,Rottweiler,2018-11-12,5.9,2019-01-16,2021-11-11,316.03,5,67.08,8.5,0.33,2021-11-11,Jack performed exceptionally well.
+BC032,Molly3,Male,Border Collie,2019-06-03,5.4,2019-08-25,2024-08-26,287.87,5,69.15,2.0,0.33,2024-08-26,Molly needs more focus.
+GS033,Jack3,Female,German Shepherd,2020-06-01,4.4,2020-12-23,2022-03-14,272.5,5,81.53,5.5,0.33,2022-03-14,Jack performed exceptionally well.
+LA034,Cooper4,Female,Labrador,2019-09-04,5.1,2019-10-26,2019-12-02,284.59,5,70.81,9.8,0.33,2019-12-02,Cooper executed commands flawlessly.
+DO035,Bailey3,Female,Doberman,2022-09-02,2.1,2022-11-28,2023-03-15,196.55,3,91.41,2.3,0.2,2023-03-15,Bailey showed improvement.
+HU036,Stella3,Male,Husky,2017-12-16,6.8,2018-03-21,2018-10-08,347.33,6,69.99,8.2,0.4,2018-10-08,Stella showed improvement.
+HU037,Bear1,Male,Husky,2021-08-16,3.2,2022-03-15,2024-06-20,222.4,4,87.75,9.8,0.27,2024-06-20,Bear executed commands flawlessly.
+BE038,Duke4,Male,Beagle,2018-02-26,6.6,2018-04-09,2020-05-12,356.96,6,65.32,9.4,0.4,2020-05-12,Duke needs to improve attention span.
+BM039,Duke5,Male,Belgian Malinois,2018-06-28,6.3,2018-08-16,2023-12-25,325.15,5,71.67,5.1,0.33,2023-12-25,Duke performed exceptionally well.
+BE040,Tucker4,Male,Beagle,2020-08-11,4.2,2021-04-02,2023-03-05,248.64,4,74.69,8.0,0.27,2023-03-05,Tucker was highly energetic and responsive.
+RO041,Lucy2,Female,Rottweiler,2022-06-20,2.3,2022-09-17,2023-07-11,173.39,3,93.13,3.4,0.2,2023-07-11,Lucy was distracted.
+BC042,Daisy2,Female,Border Collie,2019-04-06,5.5,2019-12-15,2023-06-08,325.62,5,68.66,9.1,0.33,2023-06-08,Daisy needs to improve attention span.
+BM043,Charlie3,Female,Belgian Malinois,2022-10-05,2.0,2023-07-28,2024-05-28,182.47,3,94.4,7.6,0.2,2024-05-28,Charlie needs to improve attention span.
+HU044,Daisy3,Male,Husky,2019-01-28,5.7,2020-01-12,2021-11-14,320.29,5,67.75,9.1,0.33,2021-11-14,Daisy needs more focus.
+BM045,Daisy4,Female,Belgian Malinois,2018-04-07,6.5,2018-10-05,2020-04-08,331.42,6,69.15,4.4,0.4,2020-04-08,Daisy executed commands flawlessly.
+BC046,Stella4,Female,Border Collie,2018-03-23,6.6,2019-01-27,2019-02-27,339.65,6,64.1,8.1,0.4,2019-02-27,Stella showed good scent tracking skills.
+HU047,Lola1,Female,Husky,2017-10-26,7.0,2018-03-14,2024-01-05,361.43,6,69.01,8.2,0.4,2024-01-05,Lola executed commands flawlessly.
+GR048,Oliver1,Female,Golden Retriever,2021-09-24,3.0,2022-02-21,2024-02-09,204.92,4,88.07,2.3,0.27,2024-02-09,Oliver showed improvement.
+BE049,Sadie3,Male,Beagle,2017-09-02,7.1,2018-05-02,2020-08-05,374.98,6,63.34,4.6,0.4,2020-08-05,Sadie executed commands flawlessly.
+LA050,Buddy3,Female,Labrador,2020-04-28,4.5,2020-08-26,2024-08-20,269.47,5,73.0,3.2,0.33,2024-08-20,Buddy was distracted.
+DO051,Rocky2,Female,Doberman,2016-10-27,8.0,2017-09-08,2024-06-11,392.69,6,62.55,5.0,0.4,2024-06-11,Rocky needs more focus.
+PO052,Bailey4,Female,Poodle,2020-12-29,3.8,2021-09-28,2024-05-06,232.87,4,78.47,6.7,0.27,2024-05-06,Bailey needs more focus.
+DO053,Tucker5,Female,Doberman,2017-11-05,6.9,2018-01-13,2021-04-27,348.13,6,63.86,9.0,0.4,2021-04-27,Tucker was distracted.
+GS054,Rocky3,Male,German Shepherd,2018-06-26,6.3,2018-10-12,2021-04-05,318.82,5,67.58,5.9,0.33,2021-04-05,Rocky was slightly distracted but performed well overall.
+LA055,Bear2,Female,Labrador,2018-05-30,6.4,2019-04-24,2024-09-11,347.82,6,71.57,7.9,0.4,2024-09-11,Bear was slightly distracted but performed well overall.
+DO056,Max4,Female,Doberman,2019-06-06,5.3,2020-01-21,2022-06-27,300.28,5,75.85,8.2,0.33,2022-06-27,Max needs to improve attention span.
+DO057,Tucker6,Female,Doberman,2017-11-21,6.9,2018-08-26,2019-01-21,354.3,6,67.19,8.2,0.4,2019-01-21,Tucker executed commands flawlessly.
+DO058,Rocky4,Male,Doberman,2018-05-12,6.4,2019-04-10,2022-07-08,346.52,6,63.84,4.9,0.4,2022-07-08,Rocky showed great agility and focus.
+GS059,Charlie4,Female,German Shepherd,2018-07-12,6.2,2019-01-25,2021-07-09,330.69,6,67.38,8.9,0.4,2021-07-09,Charlie performed exceptionally well.
+PO060,Jack4,Male,Poodle,2017-07-03,7.3,2017-08-11,2023-09-28,355.83,6,68.02,3.0,0.4,2023-09-28,Jack was distracted.
+LA061,Max5,Male,Labrador,2020-07-17,4.2,2020-08-26,2024-03-20,243.6,4,75.26,7.0,0.27,2024-03-20,Max showed good scent tracking skills.
+BE062,Lola2,Female,Beagle,2018-08-23,6.1,2018-12-16,2020-04-28,339.86,6,66.14,3.8,0.4,2020-04-28,Lola showed good scent tracking skills.
+LA063,Oliver2,Female,Labrador,2018-05-01,6.4,2018-09-09,2019-08-16,343.68,6,71.31,3.2,0.4,2019-08-16,Oliver performed exceptionally well.
+BC064,Buddy4,Male,Border Collie,2018-11-19,5.9,2019-09-17,2022-03-12,327.71,5,66.19,6.8,0.33,2022-03-12,Buddy showed improvement.
+PO065,Sadie4,Male,Poodle,2017-12-01,6.9,2018-07-04,2023-09-29,367.04,6,64.85,7.6,0.4,2023-09-29,Sadie performed exceptionally well.
+BC066,Bailey5,Female,Border Collie,2017-07-25,7.2,2018-04-04,2021-05-07,362.89,6,61.45,9.4,0.4,2021-05-07,Bailey performed exceptionally well.
+DO067,Tucker7,Female,Doberman,2018-07-12,6.2,2019-01-30,2019-06-26,332.27,6,67.25,5.4,0.4,2019-06-26,Tucker was highly energetic and responsive.
+BM068,Bella3,Female,Belgian Malinois,2019-09-06,5.1,2020-07-16,2020-09-04,291.92,5,71.41,3.2,0.33,2020-09-04,Bella was slightly distracted but performed well overall.
+DO069,Bailey6,Male,Doberman,2017-06-09,7.3,2018-06-04,2024-01-04,371.68,6,60.0,3.6,0.4,2024-01-04,Bailey was slightly distracted but performed well overall.
+BE070,Oliver3,Female,Beagle,2017-06-21,7.3,2018-04-30,2024-05-12,367.5,6,68.47,6.0,0.4,2024-05-12,Oliver was highly energetic and responsive.
+DO071,Jack5,Female,Doberman,2019-12-17,4.8,2020-05-13,2021-02-14,288.85,5,74.16,7.7,0.33,2021-02-14,Jack executed commands flawlessly.
+BE072,Bear3,Female,Beagle,2019-09-05,5.1,2020-08-01,2023-08-10,295.12,5,79.31,8.5,0.33,2023-08-10,Bear performed exceptionally well.
+BE073,Luna1,Male,Beagle,2019-05-22,5.4,2019-06-28,2023-07-17,303.87,5,70.74,9.8,0.33,2023-07-17,Luna needs more focus.
+BM074,Rocky5,Female,Belgian Malinois,2021-08-17,3.1,2021-09-22,2023-05-27,215.03,4,83.9,2.7,0.27,2023-05-27,Rocky showed improvement.
+BM075,Sadie5,Male,Belgian Malinois,2022-01-17,2.7,2022-09-09,2024-02-24,184.21,3,87.79,1.5,0.2,2024-02-24,Sadie executed commands flawlessly.
+BC076,Oliver4,Male,Border Collie,2019-12-30,4.8,2020-03-29,2023-06-14,290.58,5,77.06,8.1,0.33,2023-06-14,Oliver needs to improve attention span.
+RO077,Lucy3,Female,Rottweiler,2017-10-24,7.0,2018-04-24,2023-03-15,354.72,6,66.21,6.5,0.4,2023-03-15,Lucy was distracted.
+BE078,Bear4,Female,Beagle,2021-11-13,2.9,2022-03-03,2022-12-03,195.7,3,81.25,1.0,0.2,2022-12-03,Bear showed great agility and focus.
+BC079,Sadie6,Female,Border Collie,2022-05-31,2.4,2022-10-26,2023-09-16,198.28,3,90.03,5.1,0.2,2023-09-16,Sadie needs to improve attention span.
+BM080,Stella5,Male,Belgian Malinois,2018-01-04,6.8,2018-04-02,2024-06-09,343.99,6,62.49,3.4,0.4,2024-06-09,Stella executed commands flawlessly.
+GR081,Charlie5,Male,Golden Retriever,2019-05-01,5.4,2020-03-30,2024-07-10,315.47,5,77.21,5.0,0.33,2024-07-10,Charlie showed great agility and focus.
+BM082,Lucy4,Female,Belgian Malinois,2017-03-02,7.6,2018-01-02,2023-08-16,382.51,6,62.98,9.0,0.4,2023-08-16,Lucy was highly energetic and responsive.
+BC083,Jack6,Male,Border Collie,2021-10-02,3.0,2022-02-26,2024-02-16,225.94,4,85.75,9.6,0.27,2024-02-16,Jack performed exceptionally well.
+BC084,Charlie6,Male,Border Collie,2017-07-02,7.3,2018-04-23,2023-05-08,390.39,6,60.31,6.3,0.4,2023-05-08,Charlie showed great agility and focus.
+GR085,Sadie7,Female,Golden Retriever,2018-03-14,6.6,2018-09-30,2022-06-06,354.31,6,70.58,4.0,0.4,2022-06-06,Sadie showed great agility and focus.
+BM086,Lucy5,Male,Belgian Malinois,2017-09-05,7.1,2017-11-19,2021-06-29,356.35,6,60.66,8.0,0.4,2021-06-29,Lucy needs more focus.
+LA087,Bailey7,Female,Labrador,2018-02-22,6.6,2018-04-20,2020-06-26,348.24,6,68.23,5.5,0.4,2020-06-26,Bailey showed great agility and focus.
+LA088,Bear5,Female,Labrador,2021-04-23,3.5,2021-10-17,2024-05-01,246.48,4,82.35,1.3,0.27,2024-05-01,Bear showed good scent tracking skills.
+BE089,Duke6,Female,Beagle,2022-08-16,2.2,2023-06-24,2024-02-17,166.23,3,93.92,9.2,0.2,2024-02-17,Duke showed great agility and focus.
+GR090,Rocky6,Female,Golden Retriever,2019-07-04,5.3,2020-04-19,2024-05-02,289.69,5,76.85,9.8,0.33,2024-05-02,Rocky needs to improve attention span.
+DO091,Bailey8,Male,Doberman,2018-06-23,6.3,2018-10-28,2024-08-08,346.1,6,64.87,1.6,0.4,2024-08-08,Bailey was slightly distracted but performed well overall.
+HU092,Molly4,Female,Husky,2022-10-01,2.0,2023-03-24,2024-02-22,188.5,3,90.8,6.9,0.2,2024-02-22,Molly executed commands flawlessly.
+DO093,Bailey9,Female,Doberman,2018-11-28,5.9,2019-06-16,2022-08-19,331.76,6,69.27,9.4,0.4,2022-08-19,Bailey needs to improve attention span.
+BE094,Stella6,Female,Beagle,2020-02-28,4.6,2020-10-25,2021-02-21,265.23,5,76.73,9.2,0.33,2021-02-21,Stella was slightly distracted but performed well overall.
+PO095,Rocky7,Female,Poodle,2022-05-13,2.4,2022-08-15,2024-02-10,208.61,4,86.32,1.9,0.27,2024-02-10,Rocky showed great agility and focus.
+GR096,Molly5,Female,Golden Retriever,2022-08-10,2.2,2022-11-21,2024-02-13,197.34,3,93.7,1.7,0.2,2024-02-13,Molly performed exceptionally well.
+HU097,Maggie1,Female,Husky,2021-11-17,2.9,2022-06-03,2024-05-23,223.12,4,84.3,3.8,0.27,2024-05-23,Maggie showed great agility and focus.
+RO098,Charlie7,Male,Rottweiler,2020-02-23,4.6,2021-02-10,2022-10-21,292.4,5,79.47,4.9,0.33,2022-10-21,Charlie was distracted.
+GR099,Lola3,Male,Golden Retriever,2019-06-03,5.4,2019-07-17,2019-11-18,295.47,5,68.56,4.2,0.33,2019-11-18,Lola was slightly distracted but performed well overall.
+GS100,Tucker8,Female,German Shepherd,2020-10-04,4.0,2021-01-29,2022-02-21,233.16,4,83.71,6.6,0.27,2022-02-21,Tucker needs to improve attention span.
+DO101,Stella7,Male,Doberman,2020-03-04,4.6,2020-11-25,2024-07-23,262.66,5,74.55,1.1,0.33,2024-07-23,Stella showed great agility and focus.
+BM102,Bailey10,Male,Belgian Malinois,2021-12-13,2.8,2022-08-26,2023-09-13,224.51,4,83.99,9.7,0.27,2023-09-13,Bailey performed exceptionally well.
+DO103,Oliver5,Male,Doberman,2018-06-19,6.3,2019-03-23,2019-11-26,325.74,5,69.22,6.2,0.33,2019-11-26,Oliver performed exceptionally well.
+LA104,Lucy6,Female,Labrador,2022-09-08,2.1,2023-07-24,2024-08-08,189.88,3,94.24,9.2,0.2,2024-08-08,Lucy showed great agility and focus.
+BM105,Tucker9,Female,Belgian Malinois,2020-04-27,4.5,2021-04-17,2022-06-10,273.59,5,79.28,7.5,0.33,2022-06-10,Tucker executed commands flawlessly.
+GR106,Charlie8,Female,Golden Retriever,2017-11-01,6.9,2017-12-18,2024-07-17,353.34,6,61.81,9.2,0.4,2024-07-17,Charlie was highly energetic and responsive.
+PO107,Duke7,Male,Poodle,2021-04-18,3.5,2022-02-18,2024-09-02,250.11,5,82.81,9.2,0.33,2024-09-02,Duke executed commands flawlessly.
+BM108,Sadie8,Female,Belgian Malinois,2018-12-24,5.8,2019-03-22,2021-12-05,336.02,6,67.41,9.7,0.4,2021-12-05,Sadie was slightly distracted but performed well overall.
+RO109,Luna2,Male,Rottweiler,2018-05-09,6.4,2018-06-15,2021-07-02,341.46,6,67.55,7.1,0.4,2021-07-02,Luna performed exceptionally well.
+BC110,Lucy7,Female,Border Collie,2021-07-25,3.2,2021-12-21,2023-05-17,201.0,4,87.84,6.1,0.27,2023-05-17,Lucy showed good scent tracking skills.
+BE111,Cooper5,Female,Beagle,2019-05-23,5.4,2020-05-19,2022-10-02,287.17,5,68.45,1.3,0.33,2022-10-02,Cooper showed great agility and focus.
+GR112,Buddy5,Male,Golden Retriever,2021-04-04,3.5,2021-11-18,2024-07-04,226.09,4,86.99,7.3,0.27,2024-07-04,Buddy needs more focus.
+PO113,Stella8,Male,Poodle,2018-02-15,6.7,2019-02-15,2019-10-05,364.6,6,67.66,9.5,0.4,2019-10-05,Stella performed exceptionally well.
+LA114,Luna3,Male,Labrador,2017-10-21,7.0,2018-07-05,2021-03-28,376.72,6,60.99,7.2,0.4,2021-03-28,Luna needs more focus.
+HU115,Charlie9,Female,Husky,2019-09-07,5.1,2020-01-12,2020-10-18,309.21,5,77.74,1.8,0.33,2020-10-18,Charlie needs to improve attention span.
+BC116,Max6,Male,Border Collie,2019-01-14,5.7,2019-06-17,2020-03-30,325.23,5,68.55,8.5,0.33,2020-03-30,Max needs more focus.
+BE117,Stella9,Male,Beagle,2020-03-01,4.6,2020-09-15,2021-08-13,284.05,5,77.96,3.5,0.33,2021-08-13,Stella executed commands flawlessly.
+GS118,Bailey11,Female,German Shepherd,2020-10-27,4.0,2021-01-21,2021-04-13,235.27,4,78.58,8.1,0.27,2021-04-13,Bailey showed good scent tracking skills.
+HU119,Max7,Male,Husky,2019-10-21,5.0,2019-12-16,2020-09-30,297.17,5,75.26,7.7,0.33,2020-09-30,Max showed great agility and focus.
+DO120,Luna4,Male,Doberman,2017-09-16,7.1,2018-06-30,2021-01-22,384.07,6,60.0,8.0,0.4,2021-01-22,Luna needs more focus.
+BM121,Lola4,Male,Belgian Malinois,2022-02-04,2.7,2022-11-06,2024-01-21,198.3,3,82.58,7.4,0.2,2024-01-21,Lola showed great agility and focus.
+GR122,Cooper6,Female,Golden Retriever,2021-02-11,3.7,2021-04-15,2022-01-28,229.75,4,82.83,5.9,0.27,2022-01-28,Cooper was highly energetic and responsive.
+PO123,Maggie2,Female,Poodle,2017-09-09,7.1,2018-06-24,2023-05-21,350.22,6,66.52,8.7,0.4,2023-05-21,Maggie needs more focus.
+BE124,Daisy5,Female,Beagle,2020-03-20,4.6,2020-11-16,2022-11-10,285.6,5,75.99,7.6,0.33,2022-11-10,Daisy was highly energetic and responsive.
+PO125,Bella4,Female,Poodle,2018-07-31,6.2,2018-11-16,2024-04-10,315.19,5,72.32,1.8,0.33,2024-04-10,Bella was distracted.
+HU126,Rocky8,Male,Husky,2019-01-30,5.7,2019-05-02,2021-09-19,307.89,5,73.15,7.8,0.33,2021-09-19,Rocky showed improvement.
+BM127,Maggie3,Female,Belgian Malinois,2018-11-01,5.9,2019-01-23,2021-07-12,307.44,5,70.32,8.6,0.33,2021-07-12,Maggie was highly energetic and responsive.
+RO128,Luna5,Male,Rottweiler,2019-08-27,5.1,2020-07-15,2021-11-20,303.54,5,77.95,9.8,0.33,2021-11-20,Luna showed good scent tracking skills.
+BC129,Bailey12,Male,Border Collie,2019-10-12,5.0,2019-11-25,2020-12-28,278.43,5,77.62,9.3,0.33,2020-12-28,Bailey was highly energetic and responsive.
+LA130,Duke8,Male,Labrador,2018-04-14,6.5,2018-06-18,2020-02-19,353.39,6,72.22,1.8,0.4,2020-02-19,Duke needs more focus.
+BE131,Lucy8,Female,Beagle,2017-09-09,7.1,2018-04-01,2020-02-04,361.05,6,66.72,8.0,0.4,2020-02-04,Lucy showed good scent tracking skills.
+BC132,Cooper7,Male,Border Collie,2021-01-12,3.7,2021-05-02,2021-09-10,245.71,4,79.22,7.0,0.27,2021-09-10,Cooper showed great agility and focus.
+BC133,Lola5,Female,Border Collie,2019-09-19,5.1,2020-02-06,2024-05-31,291.74,5,72.95,2.0,0.33,2024-05-31,Lola showed good scent tracking skills.
+DO134,Molly6,Female,Doberman,2022-04-08,2.5,2022-08-28,2023-11-05,213.13,4,83.05,2.8,0.27,2023-11-05,Molly needs to improve attention span.
+GS135,Jack7,Female,German Shepherd,2019-02-06,5.7,2019-05-08,2019-06-22,313.65,5,70.81,2.2,0.33,2019-06-22,Jack needs more focus.
+BE136,Molly7,Female,Beagle,2021-12-20,2.8,2022-08-10,2024-10-07,186.69,3,81.19,9.3,0.2,2024-10-07,Molly was highly energetic and responsive.
+BC137,Daisy6,Female,Border Collie,2018-02-04,6.7,2018-08-01,2019-12-15,347.45,6,71.16,2.5,0.4,2019-12-15,Daisy showed good scent tracking skills.
+DO138,Luna6,Male,Doberman,2017-11-18,6.9,2018-02-10,2020-12-02,356.18,6,64.5,1.7,0.4,2020-12-02,Luna performed exceptionally well.
+HU139,Tucker10,Female,Husky,2020-11-22,3.9,2021-01-30,2024-01-10,251.58,5,80.81,2.7,0.33,2024-01-10,Tucker was highly energetic and responsive.
+HU140,Rocky9,Male,Husky,2021-08-16,3.2,2021-11-28,2022-09-16,207.89,4,85.02,7.8,0.27,2022-09-16,Rocky was distracted.
+GS141,Sadie9,Female,German Shepherd,2017-09-29,7.0,2018-08-14,2022-04-28,377.07,6,66.27,2.4,0.4,2022-04-28,Sadie was distracted.
+DO142,Lola6,Female,Doberman,2019-09-12,5.1,2020-08-09,2021-01-01,285.33,5,70.24,5.2,0.33,2021-01-01,Lola showed improvement.
+LA143,Luna7,Female,Labrador,2021-12-01,2.9,2022-11-26,2023-03-28,213.35,4,85.57,5.2,0.27,2023-03-28,Luna needs more focus.
+LA144,Lola7,Male,Labrador,2019-03-05,5.6,2020-02-07,2022-11-07,310.05,5,76.58,5.1,0.33,2022-11-07,Lola was highly energetic and responsive.
+GR145,Molly8,Male,Golden Retriever,2022-05-04,2.4,2022-10-07,2024-01-28,209.64,4,88.24,6.5,0.27,2024-01-28,Molly was highly energetic and responsive.
+HU146,Oliver6,Female,Husky,2018-03-12,6.6,2018-10-01,2019-06-02,359.07,6,68.47,1.6,0.4,2019-06-02,Oliver was distracted.
+RO147,Lucy9,Female,Rottweiler,2019-12-14,4.8,2020-11-16,2021-10-19,273.33,5,76.83,2.3,0.33,2021-10-19,Lucy was highly energetic and responsive.
+BM148,Lucy10,Male,Belgian Malinois,2021-10-29,2.9,2022-05-05,2023-12-28,203.82,4,88.42,8.3,0.27,2023-12-28,Lucy needs more focus.
+GR149,Daisy7,Female,Golden Retriever,2022-07-29,2.2,2023-03-01,2024-02-10,169.71,3,86.14,9.5,0.2,2024-02-10,Daisy showed great agility and focus.
+BE150,Tucker11,Male,Beagle,2021-01-15,3.7,2021-03-25,2022-12-20,252.53,5,77.51,7.9,0.33,2022-12-20,Tucker needs more focus.
+LA151,Bella5,Male,Labrador,2018-07-21,6.2,2018-11-06,2020-09-30,319.73,5,70.93,6.6,0.33,2020-09-30,Bella executed commands flawlessly.
+DO152,Charlie10,Female,Doberman,2018-09-10,6.1,2019-02-08,2024-08-15,326.52,5,67.35,7.7,0.33,2024-08-15,Charlie showed great agility and focus.
+BE153,Bailey13,Male,Beagle,2019-04-23,5.5,2020-01-18,2021-03-20,300.96,5,76.97,9.9,0.33,2021-03-20,Bailey showed great agility and focus.
+BM154,Lucy11,Female,Belgian Malinois,2020-12-17,3.8,2021-04-28,2022-03-07,257.42,5,76.52,5.3,0.33,2022-03-07,Lucy was highly energetic and responsive.
+RO155,Buddy6,Male,Rottweiler,2019-08-01,5.2,2019-10-12,2024-02-20,281.41,5,73.49,5.6,0.33,2024-02-20,Buddy was slightly distracted but performed well overall.
+GR156,Tucker12,Female,Golden Retriever,2018-11-10,5.9,2018-12-23,2023-09-17,303.38,5,70.52,3.1,0.33,2023-09-17,Tucker was distracted.
+HU157,Tucker13,Male,Husky,2019-03-16,5.6,2019-06-04,2024-03-17,318.59,5,70.35,2.3,0.33,2024-03-17,Tucker showed improvement.
+BM158,Sadie10,Male,Belgian Malinois,2017-07-08,7.3,2018-03-24,2018-05-14,389.98,6,60.0,2.9,0.4,2018-05-14,Sadie executed commands flawlessly.
+RO159,Maggie4,Female,Rottweiler,2021-07-13,3.2,2022-01-06,2022-10-06,212.05,4,79.48,4.8,0.27,2022-10-06,Maggie showed good scent tracking skills.
+DO160,Cooper8,Male,Doberman,2017-03-04,7.6,2018-02-02,2024-03-07,365.66,6,62.15,3.2,0.4,2024-03-07,Cooper executed commands flawlessly.
+BM161,Daisy8,Male,Belgian Malinois,2018-10-27,6.0,2019-03-29,2022-07-09,321.66,5,71.64,1.8,0.33,2022-07-09,Daisy was highly energetic and responsive.
+GR162,Molly9,Male,Golden Retriever,2018-05-26,6.4,2019-02-20,2019-06-19,345.43,6,72.81,3.3,0.4,2019-06-19,Molly showed improvement.
+HU163,Cooper9,Female,Husky,2020-01-28,4.7,2021-01-13,2021-09-12,287.11,5,78.85,4.0,0.33,2021-09-12,Cooper showed improvement.
+HU164,Bailey14,Female,Husky,2020-10-24,4.0,2021-07-18,2024-04-23,255.27,5,83.11,1.6,0.33,2024-04-23,Bailey showed great agility and focus.
+LA165,Oliver7,Male,Labrador,2022-04-15,2.5,2022-08-25,2022-11-05,186.37,3,85.6,4.6,0.2,2022-11-05,Oliver needs more focus.
+DO166,Jack8,Male,Doberman,2020-08-20,4.1,2021-02-12,2023-03-15,268.24,5,74.98,6.9,0.33,2023-03-15,Jack performed exceptionally well.
+GR167,Luna8,Female,Golden Retriever,2018-04-17,6.5,2018-12-28,2023-05-29,337.31,6,64.37,7.2,0.4,2023-05-29,Luna was highly energetic and responsive.
+RO168,Jack9,Male,Rottweiler,2018-01-07,6.8,2018-03-18,2023-02-13,359.1,6,69.22,5.9,0.4,2023-02-13,Jack was highly energetic and responsive.
+GR169,Cooper10,Female,Golden Retriever,2019-06-19,5.3,2019-12-22,2022-07-22,302.85,5,72.76,7.2,0.33,2022-07-22,Cooper was highly energetic and responsive.
+DO170,Charlie11,Female,Doberman,2017-11-25,6.9,2018-05-14,2019-02-02,341.75,6,66.88,4.3,0.4,2019-02-02,Charlie executed commands flawlessly.
+LA171,Rocky10,Female,Labrador,2022-05-22,2.4,2022-08-24,2022-11-30,179.44,3,89.45,4.3,0.2,2022-11-30,Rocky showed good scent tracking skills.
+LA172,Maggie5,Male,Labrador,2017-09-25,7.0,2018-05-02,2022-08-02,360.26,6,60.77,2.2,0.4,2022-08-02,Maggie was highly energetic and responsive.
+PO173,Bella6,Female,Poodle,2019-12-24,4.8,2020-03-21,2020-06-12,289.43,5,75.99,4.5,0.33,2020-06-12,Bella needs more focus.
+GR174,Jack10,Female,Golden Retriever,2017-10-10,7.0,2018-02-26,2021-06-09,370.26,6,69.99,2.8,0.4,2021-06-09,Jack executed commands flawlessly.
+GR175,Lola8,Male,Golden Retriever,2017-10-14,7.0,2017-12-27,2021-08-27,369.21,6,67.1,5.9,0.4,2021-08-27,Lola performed exceptionally well.
+BM176,Duke9,Male,Belgian Malinois,2018-09-22,6.1,2019-07-09,2020-11-09,313.6,5,66.51,2.2,0.33,2020-11-09,Duke showed great agility and focus.
+LA177,Luna9,Female,Labrador,2017-07-15,7.2,2018-05-23,2019-12-05,374.48,6,60.0,3.8,0.4,2019-12-05,Luna showed great agility and focus.
+RO178,Daisy9,Female,Rottweiler,2021-12-13,2.8,2022-03-17,2023-03-06,210.69,4,85.5,7.1,0.27,2023-03-06,Daisy was highly energetic and responsive.
+GS179,Bailey15,Male,German Shepherd,2021-05-01,3.4,2022-01-07,2023-07-05,243.93,4,78.55,2.1,0.27,2023-07-05,Bailey executed commands flawlessly.
+BM180,Duke10,Male,Belgian Malinois,2019-02-28,5.6,2019-07-23,2021-07-30,327.9,5,72.19,3.6,0.33,2021-07-30,Duke was distracted.
+BM181,Bear6,Female,Belgian Malinois,2021-05-17,3.4,2022-05-02,2023-04-07,232.08,4,78.93,6.8,0.27,2023-04-07,Bear showed good scent tracking skills.
+BC182,Rocky11,Male,Border Collie,2018-12-29,5.8,2019-11-12,2020-03-05,330.51,6,66.28,1.4,0.4,2020-03-05,Rocky showed good scent tracking skills.
+BM183,Bear7,Female,Belgian Malinois,2022-06-09,2.3,2023-03-20,2024-02-09,191.93,3,86.52,3.2,0.2,2024-02-09,Bear was slightly distracted but performed well overall.
+BM184,Lola9,Male,Belgian Malinois,2022-02-08,2.7,2022-05-29,2023-09-21,197.87,3,86.14,4.1,0.2,2023-09-21,Lola executed commands flawlessly.
+HU185,Bella7,Female,Husky,2018-04-22,6.5,2018-07-27,2022-10-21,344.35,6,63.56,3.2,0.4,2022-10-21,Bella was distracted.
+BM186,Lola10,Male,Belgian Malinois,2021-03-13,3.6,2021-05-31,2021-10-11,226.61,4,80.84,6.5,0.27,2021-10-11,Lola needs to improve attention span.
+GS187,Bella8,Female,German Shepherd,2020-08-25,4.1,2020-12-14,2023-10-30,273.59,5,79.17,8.9,0.33,2023-10-30,Bella showed great agility and focus.
+LA188,Cooper11,Female,Labrador,2017-02-09,7.7,2017-10-31,2020-08-12,377.36,6,60.03,1.5,0.4,2020-08-12,Cooper showed great agility and focus.
+BC189,Sadie11,Female,Border Collie,2022-09-08,2.1,2022-12-02,2024-03-17,164.11,3,87.14,4.3,0.2,2024-03-17,Sadie was slightly distracted but performed well overall.
+HU190,Charlie12,Female,Husky,2022-03-16,2.6,2023-01-31,2024-09-27,185.29,3,87.53,1.7,0.2,2024-09-27,Charlie needs more focus.
+DO191,Bailey16,Female,Doberman,2021-06-12,3.3,2021-09-15,2022-05-01,219.51,4,86.45,4.1,0.27,2022-05-01,Bailey was highly energetic and responsive.
+GS192,Bear8,Female,German Shepherd,2017-03-03,7.6,2017-04-22,2017-11-23,366.56,6,64.14,8.2,0.4,2017-11-23,Bear needs more focus.
+DO193,Rocky12,Male,Doberman,2019-02-06,5.7,2020-01-15,2021-11-27,300.25,5,76.41,7.7,0.33,2021-11-27,Rocky performed exceptionally well.
+BC194,Bella9,Female,Border Collie,2019-06-02,5.4,2020-03-01,2020-05-04,297.23,5,74.74,9.8,0.33,2020-05-04,Bella showed good scent tracking skills.
+BM195,Max8,Female,Belgian Malinois,2019-10-20,5.0,2020-10-19,2024-02-15,290.61,5,77.21,6.3,0.33,2024-02-15,Max executed commands flawlessly.
+RO196,Maggie6,Female,Rottweiler,2021-02-13,3.7,2021-07-17,2021-10-19,241.65,4,83.51,2.7,0.27,2021-10-19,Maggie showed great agility and focus.
+HU197,Daisy10,Male,Husky,2018-02-23,6.6,2018-07-07,2023-03-13,347.57,6,68.11,5.2,0.4,2023-03-13,Daisy showed improvement.
+GS198,Molly10,Male,German Shepherd,2019-02-18,5.6,2019-11-19,2022-11-29,305.07,5,76.57,5.1,0.33,2022-11-29,Molly needs more focus.
+HU199,Bailey17,Female,Husky,2019-10-25,5.0,2020-10-01,2023-07-19,275.19,5,72.47,6.0,0.33,2023-07-19,Bailey needs to improve attention span.
+BM200,Oliver8,Male,Belgian Malinois,2017-04-18,7.5,2017-10-27,2023-04-14,375.2,6,66.84,8.2,0.4,2023-04-14,Oliver performed exceptionally well.
+BM201,Buddy7,Female,Belgian Malinois,2018-05-09,6.4,2018-12-01,2020-08-21,331.62,6,65.88,7.4,0.4,2020-08-21,Buddy was highly energetic and responsive.
+DO202,Jack11,Female,Doberman,2020-05-18,4.4,2020-09-28,2023-11-05,255.85,5,78.62,3.4,0.33,2023-11-05,Jack was distracted.
+BC203,Stella10,Male,Border Collie,2020-01-22,4.7,2020-03-17,2024-01-17,292.46,5,73.76,3.1,0.33,2024-01-17,Stella was distracted.
+PO204,Bella10,Female,Poodle,2021-08-26,3.1,2021-12-04,2022-01-08,234.83,4,89.28,2.4,0.27,2022-01-08,Bella showed great agility and focus.
+DO205,Bear9,Female,Doberman,2019-03-06,5.6,2019-08-29,2023-05-12,292.37,5,74.69,6.9,0.33,2023-05-12,Bear needs to improve attention span.
+RO206,Charlie13,Male,Rottweiler,2018-02-03,6.7,2018-06-03,2018-11-28,371.14,6,65.47,5.5,0.4,2018-11-28,Charlie performed exceptionally well.
+LA207,Max9,Female,Labrador,2021-07-29,3.2,2022-02-15,2023-01-02,218.17,4,85.41,5.7,0.27,2023-01-02,Max executed commands flawlessly.
+RO208,Lola11,Female,Rottweiler,2020-08-13,4.2,2020-11-08,2022-10-16,244.0,4,78.59,3.3,0.27,2022-10-16,Lola executed commands flawlessly.
+LA209,Bella11,Female,Labrador,2020-08-11,4.2,2020-12-08,2024-06-11,271.75,5,82.97,8.4,0.33,2024-06-11,Bella needs more focus.
+HU210,Cooper12,Female,Husky,2021-09-16,3.1,2022-01-18,2022-07-10,215.35,4,88.86,1.1,0.27,2022-07-10,Cooper was slightly distracted but performed well overall.
+BE211,Lola12,Female,Beagle,2019-01-30,5.7,2019-08-02,2022-12-06,322.67,5,66.61,6.9,0.33,2022-12-06,Lola needs to improve attention span.
+LA212,Buddy8,Female,Labrador,2019-05-04,5.4,2019-08-23,2021-12-30,309.94,5,77.23,9.0,0.33,2021-12-30,Buddy performed exceptionally well.
+GR213,Oliver9,Female,Golden Retriever,2020-04-20,4.5,2020-09-09,2021-07-09,267.88,5,77.05,9.9,0.33,2021-07-09,Oliver was highly energetic and responsive.
+PO214,Bailey18,Female,Poodle,2020-04-30,4.4,2020-10-03,2024-08-26,275.19,5,81.73,1.7,0.33,2024-08-26,Bailey showed great agility and focus.
+RO215,Luna10,Male,Rottweiler,2021-07-09,3.3,2021-09-08,2024-08-08,211.84,4,83.87,2.5,0.27,2024-08-08,Luna needs more focus.
+DO216,Buddy9,Male,Doberman,2017-04-18,7.5,2017-07-03,2023-04-23,379.07,6,60.0,2.2,0.4,2023-04-23,Buddy was slightly distracted but performed well overall.
+DO217,Stella11,Male,Doberman,2017-08-05,7.2,2018-02-08,2018-06-07,365.84,6,67.16,7.7,0.4,2018-06-07,Stella showed good scent tracking skills.
+GR218,Charlie14,Female,Golden Retriever,2018-11-30,5.9,2019-01-31,2019-11-03,338.63,6,66.19,9.4,0.4,2019-11-03,Charlie showed improvement.
+BM219,Daisy11,Male,Belgian Malinois,2021-04-05,3.5,2022-03-29,2024-05-13,237.09,4,81.7,9.9,0.27,2024-05-13,Daisy was slightly distracted but performed well overall.
+DO220,Lucy12,Female,Doberman,2021-11-17,2.9,2022-09-19,2023-03-04,214.89,4,83.98,2.6,0.27,2023-03-04,Lucy needs more focus.
+PO221,Molly11,Male,Poodle,2020-04-12,4.5,2020-05-13,2024-09-07,249.66,4,75.48,7.1,0.27,2024-09-07,Molly needs more focus.
+PO222,Bailey19,Female,Poodle,2020-03-15,4.6,2020-08-18,2023-04-18,266.35,5,74.76,9.4,0.33,2023-04-18,Bailey was distracted.
+LA223,Daisy12,Male,Labrador,2020-01-30,4.7,2020-06-13,2020-11-27,260.29,5,71.84,6.4,0.33,2020-11-27,Daisy showed improvement.
+BE224,Charlie15,Female,Beagle,2017-11-09,6.9,2018-04-07,2024-05-25,347.44,6,69.14,1.5,0.4,2024-05-25,Charlie needs more focus.
+BM225,Tucker14,Female,Belgian Malinois,2019-03-08,5.6,2019-08-06,2021-05-15,325.05,5,76.86,5.7,0.33,2021-05-15,Tucker was slightly distracted but performed well overall.
+BM226,Jack12,Male,Belgian Malinois,2020-10-24,4.0,2021-10-09,2024-03-31,252.23,5,75.47,4.1,0.33,2024-03-31,Jack was slightly distracted but performed well overall.
+RO227,Bella12,Female,Rottweiler,2018-03-14,6.6,2018-06-28,2021-12-07,342.56,6,69.54,5.3,0.4,2021-12-07,Bella needs to improve attention span.
+BM228,Rocky13,Female,Belgian Malinois,2022-02-17,2.6,2022-12-31,2024-03-27,216.21,4,87.57,2.2,0.27,2024-03-27,Rocky needs to improve attention span.
+BM229,Bear10,Female,Belgian Malinois,2021-11-22,2.9,2022-08-09,2023-09-22,192.45,3,87.75,2.7,0.2,2023-09-22,Bear performed exceptionally well.
+PO230,Maggie7,Male,Poodle,2021-12-17,2.8,2022-04-22,2024-08-22,215.47,4,88.24,6.0,0.27,2024-08-22,Maggie showed great agility and focus.
+BE231,Bella13,Female,Beagle,2022-08-10,2.2,2022-12-26,2023-08-07,200.98,4,85.17,10.0,0.27,2023-08-07,Bella showed great agility and focus.
+BE232,Maggie8,Male,Beagle,2018-05-01,6.4,2018-09-30,2022-06-08,351.02,6,66.81,5.8,0.4,2022-06-08,Maggie was highly energetic and responsive.
+BM233,Jack13,Female,Belgian Malinois,2017-01-10,7.7,2017-10-21,2023-02-10,372.69,6,66.31,5.2,0.4,2023-02-10,Jack was highly energetic and responsive.
+BE234,Luna11,Female,Beagle,2018-02-19,6.6,2018-04-13,2024-09-02,362.06,6,69.41,1.1,0.4,2024-09-02,Luna needs more focus.
+BC235,Stella12,Female,Border Collie,2019-06-20,5.3,2019-10-06,2020-12-10,291.94,5,72.3,8.5,0.33,2020-12-10,Stella showed great agility and focus.
+RO236,Bella14,Female,Rottweiler,2017-04-19,7.5,2018-04-12,2023-11-11,379.68,6,64.83,4.2,0.4,2023-11-11,Bella executed commands flawlessly.
+RO237,Sadie12,Male,Rottweiler,2022-02-13,2.7,2022-12-08,2023-02-10,214.81,4,82.24,8.4,0.27,2023-02-10,Sadie showed improvement.
+LA238,Daisy13,Male,Labrador,2020-03-08,4.6,2020-05-11,2024-05-28,258.54,5,74.19,5.1,0.33,2024-05-28,Daisy showed improvement.
+BC239,Maggie9,Female,Border Collie,2017-04-22,7.5,2017-05-30,2017-07-26,382.54,6,61.61,1.2,0.4,2017-07-26,Maggie performed exceptionally well.
+RO240,Oliver10,Male,Rottweiler,2017-02-22,7.6,2017-10-30,2019-12-03,369.28,6,60.0,2.3,0.4,2019-12-03,Oliver needs to improve attention span.
+BC241,Molly12,Female,Border Collie,2018-10-21,6.0,2019-04-05,2023-10-19,320.88,5,68.73,4.7,0.33,2023-10-19,Molly showed good scent tracking skills.
+BE242,Tucker15,Female,Beagle,2021-11-15,2.9,2022-11-14,2024-10-09,219.13,4,81.44,4.4,0.27,2024-10-09,Tucker needs more focus.
+DO243,Charlie16,Male,Doberman,2020-11-09,3.9,2021-01-20,2023-12-09,260.06,5,81.95,4.0,0.33,2023-12-09,Charlie was distracted.
+RO244,Charlie17,Male,Rottweiler,2020-05-29,4.4,2021-04-14,2024-01-12,255.84,5,82.24,7.2,0.33,2024-01-12,Charlie performed exceptionally well.
+RO245,Stella13,Male,Rottweiler,2020-10-07,4.0,2021-04-16,2021-06-17,268.46,5,80.87,7.8,0.33,2021-06-17,Stella was slightly distracted but performed well overall.
+GR246,Oliver11,Male,Golden Retriever,2020-01-31,4.7,2020-12-16,2023-03-22,283.33,5,76.91,4.5,0.33,2023-03-22,Oliver executed commands flawlessly.
+GR247,Molly13,Female,Golden Retriever,2022-03-06,2.6,2022-05-25,2023-09-14,186.79,3,82.76,6.4,0.2,2023-09-14,Molly showed good scent tracking skills.
+BC248,Lucy13,Female,Border Collie,2022-06-12,2.3,2023-06-01,2023-11-17,197.59,3,88.01,3.1,0.2,2023-11-17,Lucy needs more focus.
+PO249,Daisy14,Male,Poodle,2018-07-08,6.3,2018-09-19,2022-02-09,348.17,6,70.63,1.7,0.4,2022-02-09,Daisy executed commands flawlessly.
+PO250,Rocky14,Female,Poodle,2019-03-24,5.5,2019-10-24,2020-06-28,289.91,5,76.93,5.0,0.33,2020-06-28,Rocky performed exceptionally well.
+GR251,Rocky15,Male,Golden Retriever,2020-09-04,4.1,2021-05-12,2023-12-17,256.03,5,79.62,1.9,0.33,2023-12-17,Rocky was distracted.
+HU252,Bailey20,Male,Husky,2019-02-21,5.6,2019-10-06,2019-11-30,301.67,5,70.88,1.8,0.33,2019-11-30,Bailey needs more focus.
+BE253,Stella14,Male,Beagle,2018-07-05,6.3,2018-10-29,2020-06-18,327.01,5,66.18,2.3,0.33,2020-06-18,Stella executed commands flawlessly.
+PO254,Jack14,Female,Poodle,2019-06-02,5.4,2020-03-05,2024-08-23,285.58,5,70.52,3.2,0.33,2024-08-23,Jack showed great agility and focus.
+BC255,Maggie10,Male,Border Collie,2017-08-23,7.1,2017-11-15,2019-06-22,358.44,6,68.99,4.0,0.4,2019-06-22,Maggie showed good scent tracking skills.
+PO256,Bella15,Female,Poodle,2019-01-09,5.8,2019-09-16,2024-05-12,330.44,6,72.51,6.3,0.4,2024-05-12,Bella performed exceptionally well.
+HU257,Maggie11,Male,Husky,2017-05-28,7.4,2017-12-04,2019-12-31,396.08,6,67.69,3.6,0.4,2019-12-31,Maggie showed great agility and focus.
+BC258,Tucker16,Female,Border Collie,2018-07-24,6.2,2019-01-13,2023-07-10,327.1,5,73.32,2.8,0.33,2023-07-10,Tucker needs more focus.
+GS259,Bailey21,Male,German Shepherd,2017-08-08,7.2,2017-12-23,2022-12-22,381.91,6,67.31,1.6,0.4,2022-12-22,Bailey was slightly distracted but performed well overall.
+DO260,Rocky16,Female,Doberman,2020-01-24,4.7,2020-07-01,2024-04-09,262.42,5,75.73,4.4,0.33,2024-04-09,Rocky showed great agility and focus.
+BC261,Sadie13,Female,Border Collie,2016-10-14,8.0,2017-07-30,2022-05-08,400.0,6,62.91,4.2,0.4,2022-05-08,Sadie needs more focus.
+BC262,Cooper13,Male,Border Collie,2019-12-30,4.8,2020-07-28,2021-08-02,285.88,5,71.44,9.9,0.33,2021-08-02,Cooper was slightly distracted but performed well overall.
+HU263,Daisy15,Male,Husky,2022-08-29,2.1,2022-11-17,2023-09-07,167.63,3,91.97,6.0,0.2,2023-09-07,Daisy showed good scent tracking skills.
+BE264,Lola13,Female,Beagle,2018-05-23,6.4,2019-02-14,2023-07-14,347.18,6,69.9,2.4,0.4,2023-07-14,Lola showed improvement.
+DO265,Buddy10,Female,Doberman,2018-02-11,6.7,2018-04-25,2019-09-12,364.5,6,68.8,4.1,0.4,2019-09-12,Buddy was highly energetic and responsive.
+DO266,Bear11,Female,Doberman,2018-11-15,5.9,2019-08-15,2020-03-31,318.78,5,72.47,3.9,0.33,2020-03-31,Bear performed exceptionally well.
+LA267,Buddy11,Male,Labrador,2018-12-06,5.8,2019-12-02,2020-08-11,324.59,5,67.64,9.9,0.33,2020-08-11,Buddy needs to improve attention span.
+RO268,Duke11,Male,Rottweiler,2019-01-25,5.7,2019-12-07,2022-05-28,332.09,6,68.82,4.6,0.4,2022-05-28,Duke executed commands flawlessly.
+GS269,Daisy16,Female,German Shepherd,2022-06-14,2.3,2023-05-24,2024-09-17,174.14,3,89.42,4.5,0.2,2024-09-17,Daisy needs to improve attention span.
+BE270,Jack15,Male,Beagle,2021-08-21,3.1,2022-06-21,2023-01-28,210.88,4,81.47,2.0,0.27,2023-01-28,Jack showed great agility and focus.
+RO271,Bella16,Female,Rottweiler,2018-05-18,6.4,2019-04-13,2020-01-01,333.92,6,71.46,6.6,0.4,2020-01-01,Bella performed exceptionally well.
+BC272,Stella15,Male,Border Collie,2021-04-11,3.5,2021-10-18,2022-07-16,220.79,4,78.67,4.4,0.27,2022-07-16,Stella executed commands flawlessly.
+RO273,Lucy14,Female,Rottweiler,2021-03-26,3.5,2022-02-13,2023-04-11,228.17,4,82.37,5.8,0.27,2023-04-11,Lucy executed commands flawlessly.
+RO274,Duke12,Female,Rottweiler,2019-07-16,5.2,2019-10-25,2020-12-11,287.58,5,73.51,1.5,0.33,2020-12-11,Duke was highly energetic and responsive.
+LA275,Sadie14,Male,Labrador,2020-08-03,4.2,2021-03-17,2024-06-09,257.72,5,78.95,7.2,0.33,2024-06-09,Sadie was slightly distracted but performed well overall.
+DO276,Sadie15,Male,Doberman,2021-11-07,2.9,2022-09-22,2022-11-22,220.59,4,82.71,1.3,0.27,2022-11-22,Sadie needs to improve attention span.
+RO277,Oliver12,Male,Rottweiler,2017-08-25,7.1,2018-07-10,2024-02-27,368.24,6,60.63,2.0,0.4,2024-02-27,Oliver needs more focus.
+HU278,Bailey22,Male,Husky,2017-10-30,6.9,2018-09-04,2021-03-17,378.34,6,61.52,8.5,0.4,2021-03-17,Bailey needs to improve attention span.
+BM279,Charlie18,Female,Belgian Malinois,2019-10-31,4.9,2020-05-26,2020-12-20,281.31,5,80.44,8.0,0.33,2020-12-20,Charlie needs to improve attention span.
+BE280,Stella16,Female,Beagle,2017-12-23,6.8,2018-04-16,2019-12-07,366.39,6,69.14,8.2,0.4,2019-12-07,Stella showed good scent tracking skills.
+HU281,Bailey23,Female,Husky,2020-11-21,3.9,2021-06-04,2023-02-23,237.82,4,78.17,8.7,0.27,2023-02-23,Bailey was distracted.
+GS282,Daisy17,Male,German Shepherd,2019-09-02,5.1,2020-09-01,2021-06-17,299.31,5,70.83,2.3,0.33,2021-06-17,Daisy was highly energetic and responsive.
+BE283,Lucy15,Female,Beagle,2021-03-08,3.6,2022-01-27,2023-12-05,225.75,4,81.14,5.1,0.27,2023-12-05,Lucy was distracted.
+PO284,Molly14,Female,Poodle,2018-08-22,6.1,2019-05-11,2024-10-07,328.27,5,70.32,8.8,0.33,2024-10-07,Molly was distracted.
+DO285,Luna12,Male,Doberman,2016-10-13,8.0,2017-06-03,2019-12-12,400.0,6,63.25,5.5,0.4,2019-12-12,Luna was highly energetic and responsive.
+BM286,Bella17,Male,Belgian Malinois,2017-05-03,7.4,2017-11-24,2018-07-10,359.34,6,64.26,8.5,0.4,2018-07-10,Bella showed improvement.
+GR287,Duke13,Female,Golden Retriever,2017-08-29,7.1,2017-09-28,2022-08-15,354.34,6,66.39,2.2,0.4,2022-08-15,Duke performed exceptionally well.
+GS288,Jack16,Male,German Shepherd,2018-09-26,6.0,2019-03-03,2019-09-17,319.87,5,74.04,2.5,0.33,2019-09-17,Jack was slightly distracted but performed well overall.
+BM289,Tucker17,Female,Belgian Malinois,2021-10-03,3.0,2021-12-20,2022-01-20,201.04,4,80.78,6.3,0.27,2022-01-20,Tucker needs more focus.
+DO290,Max10,Male,Doberman,2018-12-04,5.9,2019-03-05,2024-01-29,318.14,5,66.82,1.6,0.33,2024-01-29,Max was slightly distracted but performed well overall.
+GR291,Buddy12,Male,Golden Retriever,2019-04-07,5.5,2019-11-11,2021-08-14,291.74,5,75.23,7.8,0.33,2021-08-14,Buddy executed commands flawlessly.
+GS292,Cooper14,Male,German Shepherd,2020-12-08,3.8,2021-08-20,2023-09-08,251.4,5,82.28,2.4,0.33,2023-09-08,Cooper was slightly distracted but performed well overall.
+BC293,Lola14,Male,Border Collie,2021-10-21,3.0,2022-01-10,2022-07-02,222.6,4,85.9,4.5,0.27,2022-07-02,Lola was slightly distracted but performed well overall.
+HU294,Rocky17,Male,Husky,2019-09-03,5.1,2020-08-28,2021-03-18,281.18,5,75.51,7.5,0.33,2021-03-18,Rocky performed exceptionally well.
+LA295,Oliver13,Male,Labrador,2016-12-21,7.8,2017-11-26,2023-09-13,380.05,6,60.0,6.8,0.4,2023-09-13,Oliver needs to improve attention span.
+DO296,Lucy16,Male,Doberman,2020-01-28,4.7,2020-11-08,2024-07-06,280.01,5,76.78,9.8,0.33,2024-07-06,Lucy was highly energetic and responsive.
+HU297,Rocky18,Female,Husky,2018-01-22,6.7,2018-08-27,2020-09-02,361.76,6,71.04,7.9,0.4,2020-09-02,Rocky showed improvement.
+BC298,Cooper15,Male,Border Collie,2019-11-03,4.9,2020-03-22,2020-07-11,300.65,5,79.99,4.6,0.33,2020-07-11,Cooper performed exceptionally well.
+RO299,Daisy18,Female,Rottweiler,2018-04-08,6.5,2018-06-19,2024-07-24,345.26,6,64.03,1.8,0.4,2024-07-24,Daisy was distracted.
+RO300,Bear12,Male,Rottweiler,2019-02-11,5.7,2019-09-29,2023-02-11,319.12,5,74.85,7.1,0.33,2023-02-11,Bear was distracted.
+BM301,Daisy19,Male,Belgian Malinois,2022-02-16,2.6,2022-07-21,2022-11-16,214.49,4,83.16,6.5,0.27,2022-11-16,Daisy showed improvement.
+BM302,Duke14,Male,Belgian Malinois,2022-08-21,2.1,2022-11-29,2023-01-09,165.3,3,94.03,5.7,0.2,2023-01-09,Duke performed exceptionally well.
+GS303,Luna13,Male,German Shepherd,2019-10-07,5.0,2020-01-05,2024-06-01,303.5,5,73.35,4.9,0.33,2024-06-01,Luna needs more focus.
+GR304,Jack17,Male,Golden Retriever,2017-03-19,7.6,2017-12-07,2023-09-29,379.4,6,62.0,6.1,0.4,2023-09-29,Jack was highly energetic and responsive.
+GS305,Jack18,Male,German Shepherd,2021-06-26,3.3,2021-11-19,2021-12-24,205.51,4,87.13,3.2,0.27,2021-12-24,Jack showed great agility and focus.
+HU306,Lucy17,Male,Husky,2020-10-08,4.0,2020-11-25,2024-01-31,262.12,5,82.14,6.9,0.33,2024-01-31,Lucy needs to improve attention span.
+HU307,Tucker18,Female,Husky,2019-03-11,5.6,2019-08-26,2024-05-12,293.12,5,70.73,5.5,0.33,2024-05-12,Tucker showed improvement.
+GS308,Tucker19,Male,German Shepherd,2018-04-13,6.5,2018-06-17,2023-10-04,358.39,6,70.24,3.8,0.4,2023-10-04,Tucker was distracted.
+RO309,Lola15,Male,Rottweiler,2018-08-22,6.1,2019-01-01,2022-05-09,331.3,6,67.54,6.6,0.4,2022-05-09,Lola showed great agility and focus.
+HU310,Stella17,Female,Husky,2020-08-02,4.2,2021-06-07,2022-11-21,243.52,4,83.32,1.2,0.27,2022-11-21,Stella needs more focus.
+HU311,Max11,Female,Husky,2022-10-06,2.0,2023-05-16,2024-08-22,184.52,3,88.08,2.8,0.2,2024-08-22,Max needs to improve attention span.
+PO312,Sadie16,Male,Poodle,2021-03-07,3.6,2021-08-27,2022-04-04,216.76,4,79.31,8.6,0.27,2022-04-04,Sadie was slightly distracted but performed well overall.
+HU313,Lola16,Male,Husky,2021-09-15,3.1,2022-06-30,2022-12-13,221.74,4,83.44,6.3,0.27,2022-12-13,Lola showed improvement.
+PO314,Rocky19,Male,Poodle,2019-07-05,5.3,2019-12-15,2021-10-20,315.79,5,72.43,8.5,0.33,2021-10-20,Rocky was highly energetic and responsive.
+HU315,Lola17,Female,Husky,2020-02-28,4.6,2020-05-06,2021-07-25,257.94,5,79.7,2.0,0.33,2021-07-25,Lola was distracted.
+GS316,Lola18,Female,German Shepherd,2019-04-04,5.5,2019-11-28,2020-08-31,307.69,5,77.15,2.9,0.33,2020-08-31,Lola performed exceptionally well.
+DO317,Jack19,Male,Doberman,2021-10-06,3.0,2022-01-24,2024-05-29,219.94,4,88.26,7.3,0.27,2024-05-29,Jack showed improvement.
+BE318,Bella18,Male,Beagle,2021-10-03,3.0,2022-03-09,2023-04-07,208.35,4,80.49,3.7,0.27,2023-04-07,Bella executed commands flawlessly.
+LA319,Lucy18,Female,Labrador,2019-12-23,4.8,2020-03-10,2022-11-11,264.08,5,78.94,2.1,0.33,2022-11-11,Lucy showed improvement.
+BE320,Rocky20,Male,Beagle,2018-04-15,6.5,2018-11-21,2019-11-30,347.04,6,65.09,8.3,0.4,2019-11-30,Rocky showed improvement.
+GR321,Bear13,Female,Golden Retriever,2021-05-02,3.4,2021-07-18,2023-06-27,212.4,4,87.42,1.5,0.27,2023-06-27,Bear showed good scent tracking skills.
+PO322,Lucy19,Female,Poodle,2022-06-13,2.3,2023-01-24,2024-05-04,173.16,3,85.65,2.7,0.2,2024-05-04,Lucy performed exceptionally well.
+DO323,Rocky21,Male,Doberman,2020-01-09,4.8,2021-01-04,2022-09-30,279.96,5,79.83,5.3,0.33,2022-09-30,Rocky was distracted.
+BM324,Lucy20,Male,Belgian Malinois,2018-01-28,6.7,2018-06-09,2024-05-31,341.22,6,71.44,5.9,0.4,2024-05-31,Lucy showed improvement.
+PO325,Luna14,Female,Poodle,2017-05-05,7.4,2017-11-27,2024-04-30,377.6,6,61.88,2.6,0.4,2024-04-30,Luna was highly energetic and responsive.
+BC326,Tucker20,Male,Border Collie,2019-08-18,5.1,2019-10-16,2024-05-28,310.91,5,74.79,7.9,0.33,2024-05-28,Tucker needs to improve attention span.
+GS327,Buddy13,Male,German Shepherd,2020-01-28,4.7,2020-07-12,2023-08-08,288.9,5,80.67,1.5,0.33,2023-08-08,Buddy needs to improve attention span.
+BC328,Lucy21,Female,Border Collie,2020-10-30,3.9,2021-02-27,2022-07-26,249.95,4,83.56,7.3,0.27,2022-07-26,Lucy showed good scent tracking skills.
+LA329,Luna15,Male,Labrador,2020-08-31,4.1,2021-06-09,2024-07-23,246.11,4,79.4,1.8,0.27,2024-07-23,Luna needs to improve attention span.
+BC330,Tucker21,Male,Border Collie,2016-11-15,7.9,2017-08-16,2017-09-17,389.52,6,61.64,8.3,0.4,2017-09-17,Tucker was highly energetic and responsive.
+GS331,Bella19,Male,German Shepherd,2022-07-14,2.2,2022-10-27,2024-07-18,190.69,3,85.42,2.0,0.2,2024-07-18,Bella needs more focus.
+HU332,Cooper16,Female,Husky,2018-05-05,6.4,2019-03-31,2019-11-22,333.46,6,66.23,9.8,0.4,2019-11-22,Cooper was slightly distracted but performed well overall.
+DO333,Bella20,Male,Doberman,2018-10-11,6.0,2019-03-04,2022-12-26,328.56,5,66.75,3.8,0.33,2022-12-26,Bella performed exceptionally well.
+GS334,Duke15,Male,German Shepherd,2018-05-22,6.4,2019-04-07,2019-07-12,327.28,5,66.18,8.3,0.33,2019-07-12,Duke showed good scent tracking skills.
+BE335,Stella18,Male,Beagle,2017-03-19,7.6,2017-06-29,2021-04-15,394.81,6,60.0,9.8,0.4,2021-04-15,Stella executed commands flawlessly.
+GR336,Bella21,Female,Golden Retriever,2022-08-26,2.1,2023-02-07,2023-10-09,168.73,3,85.18,3.3,0.2,2023-10-09,Bella was distracted.
+LA337,Charlie19,Female,Labrador,2017-11-12,6.9,2018-07-14,2020-06-24,374.13,6,65.43,4.4,0.4,2020-06-24,Charlie needs more focus.
+PO338,Buddy14,Female,Poodle,2020-04-01,4.5,2020-07-23,2023-03-04,251.7,5,80.96,3.7,0.33,2023-03-04,Buddy was highly energetic and responsive.
+BM339,Buddy15,Male,Belgian Malinois,2018-12-11,5.8,2019-04-07,2024-04-28,312.52,5,73.32,5.9,0.33,2024-04-28,Buddy was distracted.
+HU340,Maggie12,Female,Husky,2022-06-07,2.3,2023-02-12,2023-08-29,190.54,3,87.84,1.5,0.2,2023-08-29,Maggie was highly energetic and responsive.
+BE341,Bear14,Female,Beagle,2019-10-21,5.0,2020-04-12,2022-01-11,277.0,5,70.5,6.1,0.33,2022-01-11,Bear showed great agility and focus.
+GS342,Charlie20,Female,German Shepherd,2022-09-26,2.0,2023-06-01,2023-08-14,166.78,3,91.62,6.4,0.2,2023-08-14,Charlie needs to improve attention span.
+GR343,Max12,Male,Golden Retriever,2020-11-11,3.9,2021-11-02,2023-07-22,265.33,5,80.24,2.0,0.33,2023-07-22,Max was slightly distracted but performed well overall.
+DO344,Sadie17,Female,Doberman,2021-10-03,3.0,2022-09-26,2024-05-05,208.0,4,83.71,4.4,0.27,2024-05-05,Sadie executed commands flawlessly.
+DO345,Charlie21,Female,Doberman,2017-11-05,6.9,2018-07-31,2021-08-12,347.8,6,63.19,1.6,0.4,2021-08-12,Charlie was distracted.
+GR346,Luna16,Female,Golden Retriever,2020-03-24,4.5,2021-01-31,2021-07-04,282.38,5,80.68,4.8,0.33,2021-07-04,Luna needs more focus.
+DO347,Stella19,Male,Doberman,2017-06-09,7.3,2017-12-09,2018-11-27,369.54,6,67.04,1.3,0.4,2018-11-27,Stella showed good scent tracking skills.
+RO348,Stella20,Male,Rottweiler,2021-06-06,3.3,2022-02-20,2022-09-15,241.71,4,80.17,2.9,0.27,2022-09-15,Stella needs to improve attention span.
+GS349,Charlie22,Female,German Shepherd,2021-11-25,2.9,2022-08-04,2023-03-28,228.64,4,86.77,8.5,0.27,2023-03-28,Charlie performed exceptionally well.
+HU350,Cooper17,Male,Husky,2018-06-05,6.3,2019-04-15,2021-08-05,338.33,6,72.07,5.7,0.4,2021-08-05,Cooper showed improvement.
+BC351,Stella21,Female,Border Collie,2021-07-08,3.3,2022-03-07,2022-09-06,209.68,4,84.38,7.8,0.27,2022-09-06,Stella was distracted.
+GR352,Stella22,Male,Golden Retriever,2019-07-28,5.2,2020-05-27,2022-05-31,310.12,5,71.64,6.9,0.33,2022-05-31,Stella showed good scent tracking skills.
+BC353,Sadie18,Male,Border Collie,2020-11-05,3.9,2021-04-25,2023-08-28,232.0,4,81.59,7.2,0.27,2023-08-28,Sadie showed improvement.
+PO354,Bella22,Male,Poodle,2022-03-24,2.5,2022-12-22,2023-10-23,209.63,4,82.7,8.4,0.27,2023-10-23,Bella performed exceptionally well.
+BM355,Jack20,Female,Belgian Malinois,2021-09-04,3.1,2022-01-28,2022-07-14,208.27,4,86.94,8.0,0.27,2022-07-14,Jack was highly energetic and responsive.
+BM356,Daisy20,Male,Belgian Malinois,2020-09-02,4.1,2021-05-16,2022-08-21,270.29,5,78.57,5.4,0.33,2022-08-21,Daisy needs more focus.
+HU357,Charlie23,Male,Husky,2022-01-16,2.7,2022-07-24,2024-08-18,201.52,4,82.86,8.7,0.27,2024-08-18,Charlie showed good scent tracking skills.
+LA358,Duke16,Male,Labrador,2020-07-11,4.2,2020-09-08,2022-03-02,238.82,4,74.51,4.2,0.27,2022-03-02,Duke needs to improve attention span.
+BM359,Luna17,Female,Belgian Malinois,2017-02-11,7.7,2017-10-02,2019-03-23,396.0,6,60.0,5.4,0.4,2019-03-23,Luna showed great agility and focus.
+GS360,Sadie19,Female,German Shepherd,2018-12-01,5.9,2019-03-24,2024-01-02,337.03,6,72.99,7.2,0.4,2024-01-02,Sadie performed exceptionally well.
+LA361,Lucy22,Male,Labrador,2020-12-13,3.8,2021-10-31,2023-02-11,256.78,5,82.47,7.1,0.33,2023-02-11,Lucy performed exceptionally well.
+PO362,Molly15,Male,Poodle,2022-09-05,2.1,2023-06-04,2023-09-09,184.64,3,90.51,1.1,0.2,2023-09-09,Molly performed exceptionally well.
+BC363,Oliver14,Female,Border Collie,2018-01-10,6.7,2018-08-20,2022-08-17,349.61,6,63.68,3.7,0.4,2022-08-17,Oliver needs more focus.
+BC364,Lucy23,Male,Border Collie,2022-09-11,2.1,2023-06-29,2024-07-02,197.41,3,92.89,6.1,0.2,2024-07-02,Lucy showed good scent tracking skills.
+BC365,Oliver15,Female,Border Collie,2021-07-26,3.2,2022-04-28,2022-08-01,213.45,4,81.76,3.9,0.27,2022-08-01,Oliver performed exceptionally well.
+BM366,Oliver16,Male,Belgian Malinois,2021-02-04,3.7,2021-11-25,2024-02-16,228.36,4,77.07,8.7,0.27,2024-02-16,Oliver showed good scent tracking skills.
+PO367,Bella23,Male,Poodle,2022-06-29,2.3,2023-06-29,2024-04-08,206.15,4,86.09,4.8,0.27,2024-04-08,Bella was slightly distracted but performed well overall.
+LA368,Stella23,Male,Labrador,2018-12-06,5.8,2019-04-28,2023-04-02,318.89,5,73.85,9.2,0.33,2023-04-02,Stella was highly energetic and responsive.
+RO369,Oliver17,Male,Rottweiler,2020-09-30,4.0,2021-03-29,2021-11-13,248.83,4,82.41,7.5,0.27,2021-11-13,Oliver needs more focus.
+GS370,Bella24,Male,German Shepherd,2020-04-14,4.5,2020-11-11,2022-03-13,278.52,5,75.57,8.1,0.33,2022-03-13,Bella was highly energetic and responsive.
+HU371,Jack21,Female,Husky,2017-07-30,7.2,2017-10-28,2023-03-08,352.15,6,65.34,6.2,0.4,2023-03-08,Jack showed good scent tracking skills.
+GR372,Sadie20,Male,Golden Retriever,2017-03-02,7.6,2017-06-01,2021-10-11,386.19,6,61.13,8.8,0.4,2021-10-11,Sadie executed commands flawlessly.
+GS373,Bear15,Female,German Shepherd,2018-03-10,6.6,2019-01-25,2024-04-12,333.23,6,70.62,2.6,0.4,2024-04-12,Bear was distracted.
+DO374,Bella25,Male,Doberman,2019-04-07,5.5,2020-03-26,2020-08-21,286.44,5,70.24,7.9,0.33,2020-08-21,Bella executed commands flawlessly.
+BC375,Duke17,Female,Border Collie,2021-10-16,3.0,2022-01-20,2023-11-10,209.85,4,84.29,4.9,0.27,2023-11-10,Duke showed great agility and focus.
+PO376,Max13,Male,Poodle,2016-10-16,8.0,2017-02-25,2021-06-02,400.0,6,63.92,7.8,0.4,2021-06-02,Max needs more focus.
+BE377,Max14,Male,Beagle,2019-12-27,4.8,2020-05-20,2024-05-09,295.08,5,74.12,1.9,0.33,2024-05-09,Max needs more focus.
+BC378,Oliver18,Male,Border Collie,2022-01-17,2.7,2022-03-11,2023-02-09,219.19,4,86.06,5.7,0.27,2023-02-09,Oliver needs more focus.
+HU379,Daisy21,Male,Husky,2018-12-08,5.8,2019-09-14,2021-10-18,327.5,5,67.65,9.2,0.33,2021-10-18,Daisy was slightly distracted but performed well overall.
+LA380,Tucker22,Male,Labrador,2021-04-22,3.5,2021-09-07,2021-11-20,234.84,4,79.19,4.3,0.27,2021-11-20,Tucker showed improvement.
+PO381,Jack22,Male,Poodle,2022-03-29,2.5,2022-06-22,2024-05-21,207.19,4,82.98,2.0,0.27,2024-05-21,Jack showed great agility and focus.
+PO382,Buddy16,Female,Poodle,2017-06-16,7.3,2017-10-02,2020-02-20,381.56,6,64.8,3.7,0.4,2020-02-20,Buddy was distracted.
+RO383,Jack23,Male,Rottweiler,2018-01-30,6.7,2018-04-23,2024-02-16,360.0,6,62.68,2.0,0.4,2024-02-16,Jack was distracted.
+DO384,Bear16,Male,Doberman,2019-10-30,4.9,2020-08-22,2021-11-08,278.07,5,74.6,2.4,0.33,2021-11-08,Bear needs more focus.
+DO385,Bear17,Female,Doberman,2019-01-26,5.7,2019-06-25,2019-07-30,294.26,5,67.39,2.0,0.33,2019-07-30,Bear showed good scent tracking skills.
+DO386,Rocky22,Male,Doberman,2017-01-15,7.7,2017-03-24,2018-06-11,400.0,6,62.94,5.1,0.4,2018-06-11,Rocky performed exceptionally well.
+BM387,Lola19,Male,Belgian Malinois,2021-08-29,3.1,2021-12-26,2024-07-08,197.83,3,82.41,8.2,0.2,2024-07-08,Lola was highly energetic and responsive.
+PO388,Buddy17,Male,Poodle,2022-04-07,2.5,2022-05-11,2022-10-29,200.28,4,84.21,4.2,0.27,2022-10-29,Buddy showed great agility and focus.
+BC389,Jack24,Male,Border Collie,2018-08-07,6.2,2019-02-28,2020-04-07,317.05,5,68.0,5.1,0.33,2020-04-07,Jack was slightly distracted but performed well overall.
+DO390,Daisy22,Male,Doberman,2021-07-05,3.3,2021-10-10,2022-03-09,243.01,4,86.94,1.9,0.27,2022-03-09,Daisy showed good scent tracking skills.
+DO391,Stella24,Female,Doberman,2020-09-29,4.0,2021-09-06,2023-11-22,261.17,5,81.11,8.8,0.33,2023-11-22,Stella executed commands flawlessly.
+DO392,Sadie21,Male,Doberman,2018-03-02,6.6,2018-11-12,2019-06-18,330.03,6,68.55,1.1,0.4,2019-06-18,Sadie needs more focus.
+BC393,Stella25,Male,Border Collie,2018-12-26,5.8,2019-10-17,2022-10-22,325.03,5,72.18,4.9,0.33,2022-10-22,Stella needs to improve attention span.
+DO394,Luna18,Female,Doberman,2021-02-10,3.7,2021-12-22,2024-07-22,258.26,5,77.05,6.8,0.33,2024-07-22,Luna executed commands flawlessly.
+RO395,Sadie22,Female,Rottweiler,2020-12-03,3.9,2021-02-09,2023-12-12,239.08,4,78.81,3.5,0.27,2023-12-12,Sadie needs more focus.
+BE396,Bailey24,Female,Beagle,2018-04-04,6.5,2018-09-01,2019-08-19,342.11,6,70.51,5.0,0.4,2019-08-19,Bailey showed great agility and focus.
+DO397,Bella26,Male,Doberman,2017-03-14,7.6,2018-03-13,2018-06-23,369.11,6,61.12,6.0,0.4,2018-06-23,Bella showed improvement.
+GR398,Maggie13,Female,Golden Retriever,2017-01-28,7.7,2017-12-11,2020-05-06,394.93,6,61.06,4.1,0.4,2020-05-06,Maggie showed improvement.
+BE399,Lola20,Female,Beagle,2017-06-22,7.3,2018-01-24,2023-03-22,358.31,6,66.09,3.0,0.4,2023-03-22,Lola was highly energetic and responsive.
+HU400,Oliver19,Female,Husky,2021-08-02,3.2,2021-09-24,2022-09-25,219.7,4,87.22,7.7,0.27,2022-09-25,Oliver was slightly distracted but performed well overall.
+GR401,Jack25,Male,Golden Retriever,2020-09-03,4.1,2020-12-03,2023-03-17,242.37,4,82.75,2.7,0.27,2023-03-17,Jack was highly energetic and responsive.
+GR402,Daisy23,Male,Golden Retriever,2021-05-25,3.4,2022-02-09,2023-06-22,233.84,4,87.56,2.2,0.27,2023-06-22,Daisy showed great agility and focus.
+LA403,Molly16,Male,Labrador,2017-12-04,6.9,2018-10-29,2024-04-28,375.72,6,68.31,9.2,0.4,2024-04-28,Molly showed good scent tracking skills.
+GS404,Rocky23,Male,German Shepherd,2018-06-08,6.3,2019-05-11,2022-11-02,351.56,6,68.54,4.5,0.4,2022-11-02,Rocky showed good scent tracking skills.
+BE405,Jack26,Female,Beagle,2018-12-07,5.8,2019-06-05,2022-01-17,329.69,5,67.38,6.4,0.33,2022-01-17,Jack needs more focus.
+BM406,Bailey25,Female,Belgian Malinois,2020-05-04,4.4,2020-09-13,2021-12-16,269.97,5,75.91,4.1,0.33,2021-12-16,Bailey executed commands flawlessly.
+GS407,Molly17,Female,German Shepherd,2021-06-26,3.3,2022-01-22,2023-09-19,222.96,4,84.21,7.0,0.27,2023-09-19,Molly was slightly distracted but performed well overall.
+RO408,Oliver20,Female,Rottweiler,2022-08-20,2.1,2023-06-13,2023-09-05,159.76,3,85.95,7.0,0.2,2023-09-05,Oliver needs to improve attention span.
+BM409,Duke18,Female,Belgian Malinois,2019-12-20,4.8,2020-04-02,2020-09-06,287.62,5,73.95,7.8,0.33,2020-09-06,Duke showed improvement.
+HU410,Lola21,Male,Husky,2020-04-06,4.5,2021-04-02,2024-06-24,264.31,5,77.61,8.2,0.33,2024-06-24,Lola performed exceptionally well.
+LA411,Lucy24,Female,Labrador,2018-02-08,6.7,2018-08-17,2019-04-24,331.77,6,64.01,6.6,0.4,2019-04-24,Lucy showed great agility and focus.
+BE412,Luna19,Male,Beagle,2020-08-10,4.2,2021-02-06,2023-09-13,244.6,4,80.83,2.7,0.27,2023-09-13,Luna executed commands flawlessly.
+RO413,Buddy18,Female,Rottweiler,2022-04-28,2.5,2023-01-02,2023-11-13,196.01,3,83.8,6.3,0.2,2023-11-13,Buddy performed exceptionally well.
+LA414,Bella27,Female,Labrador,2021-01-15,3.7,2021-03-06,2022-02-13,255.9,5,82.47,8.0,0.33,2022-02-13,Bella showed good scent tracking skills.
+BM415,Sadie23,Female,Belgian Malinois,2021-12-17,2.8,2022-06-27,2024-01-16,193.8,3,82.84,1.6,0.2,2024-01-16,Sadie needs more focus.
+GS416,Daisy24,Female,German Shepherd,2021-09-30,3.0,2022-04-26,2023-01-07,227.84,4,86.63,4.0,0.27,2023-01-07,Daisy performed exceptionally well.
+BE417,Maggie14,Female,Beagle,2022-09-05,2.1,2022-12-02,2023-12-21,176.58,3,93.54,6.5,0.2,2023-12-21,Maggie showed good scent tracking skills.
+BE418,Charlie24,Female,Beagle,2018-07-02,6.3,2018-09-28,2023-02-24,326.51,5,70.74,1.2,0.33,2023-02-24,Charlie needs more focus.
+HU419,Molly18,Female,Husky,2017-04-27,7.5,2017-06-18,2020-11-13,397.18,6,60.0,5.6,0.4,2020-11-13,Molly was distracted.
+GS420,Bailey26,Male,German Shepherd,2022-01-16,2.7,2022-06-02,2024-05-18,206.43,4,83.63,7.2,0.27,2024-05-18,Bailey was distracted.
+BE421,Bailey27,Female,Beagle,2021-12-20,2.8,2022-04-07,2022-05-31,203.37,4,84.32,1.8,0.27,2022-05-31,Bailey showed improvement.
+GS422,Jack27,Male,German Shepherd,2020-03-23,4.6,2020-09-01,2023-01-13,268.02,5,78.3,4.9,0.33,2023-01-13,Jack showed improvement.
+PO423,Buddy19,Male,Poodle,2022-01-25,2.7,2022-12-20,2023-03-06,209.29,4,82.23,9.4,0.27,2023-03-06,Buddy was distracted.
+BM424,Oliver21,Male,Belgian Malinois,2019-08-15,5.2,2020-04-25,2022-07-15,290.8,5,75.61,5.3,0.33,2022-07-15,Oliver needs more focus.
+BE425,Rocky24,Female,Beagle,2019-06-21,5.3,2020-06-09,2021-04-30,290.67,5,77.37,9.7,0.33,2021-04-30,Rocky was highly energetic and responsive.
+LA426,Bailey28,Male,Labrador,2021-05-25,3.4,2021-07-15,2021-08-24,230.41,4,81.94,5.9,0.27,2021-08-24,Bailey was distracted.
+BM427,Bear18,Female,Belgian Malinois,2020-05-27,4.4,2021-01-23,2024-10-06,279.06,5,74.42,2.7,0.33,2024-10-06,Bear showed good scent tracking skills.
+BM428,Bear19,Male,Belgian Malinois,2020-09-29,4.0,2021-08-15,2022-01-03,264.06,5,84.32,9.9,0.33,2022-01-03,Bear showed great agility and focus.
+RO429,Cooper18,Female,Rottweiler,2022-01-09,2.8,2022-06-16,2022-10-24,192.9,3,86.81,9.6,0.2,2022-10-24,Cooper was highly energetic and responsive.
+GS430,Tucker23,Male,German Shepherd,2019-08-01,5.2,2020-07-13,2021-01-01,311.0,5,72.18,5.1,0.33,2021-01-01,Tucker showed good scent tracking skills.
+BM431,Stella26,Male,Belgian Malinois,2018-09-10,6.1,2019-03-20,2024-09-02,325.88,5,64.55,3.2,0.33,2024-09-02,Stella needs to improve attention span.
+PO432,Jack28,Female,Poodle,2021-04-09,3.5,2021-10-25,2024-08-02,229.76,4,81.09,3.7,0.27,2024-08-02,Jack needs more focus.
+GR433,Duke19,Male,Golden Retriever,2019-08-19,5.1,2019-11-28,2023-01-04,279.11,5,76.84,6.6,0.33,2023-01-04,Duke was distracted.
+LA434,Molly19,Male,Labrador,2018-03-27,6.5,2019-02-22,2020-06-01,360.0,6,68.02,5.9,0.4,2020-06-01,Molly needs more focus.
+DO435,Rocky25,Female,Doberman,2018-05-18,6.4,2018-10-09,2022-02-11,325.36,5,68.01,1.8,0.33,2022-02-11,Rocky was highly energetic and responsive.
+RO436,Max15,Male,Rottweiler,2020-12-01,3.9,2021-09-20,2022-08-03,244.1,4,77.29,9.5,0.27,2022-08-03,Max executed commands flawlessly.
+DO437,Luna20,Male,Doberman,2020-04-28,4.5,2021-02-01,2022-06-20,251.26,5,76.19,1.4,0.33,2022-06-20,Luna needs to improve attention span.
+RO438,Luna21,Female,Rottweiler,2017-07-06,7.3,2018-03-25,2018-10-31,355.35,6,64.99,1.9,0.4,2018-10-31,Luna needs more focus.
+BM439,Jack29,Male,Belgian Malinois,2018-07-22,6.2,2019-07-21,2021-10-03,327.11,5,70.53,8.5,0.33,2021-10-03,Jack needs more focus.
+BM440,Lucy25,Male,Belgian Malinois,2016-12-26,7.8,2017-08-20,2021-09-03,400.0,6,60.0,8.1,0.4,2021-09-03,Lucy showed good scent tracking skills.
+LA441,Molly20,Male,Labrador,2017-11-05,6.9,2018-02-27,2020-10-26,341.83,6,66.93,2.9,0.4,2020-10-26,Molly executed commands flawlessly.
+GS442,Luna22,Male,German Shepherd,2020-03-12,4.6,2020-11-09,2022-10-16,281.31,5,76.82,5.3,0.33,2022-10-16,Luna needs to improve attention span.
+BC443,Duke20,Female,Border Collie,2022-07-12,2.2,2022-12-13,2023-02-25,167.62,3,89.92,2.2,0.2,2023-02-25,Duke needs more focus.
+LA444,Stella27,Male,Labrador,2022-02-24,2.6,2022-06-19,2023-04-09,214.4,4,87.17,4.6,0.27,2023-04-09,Stella showed good scent tracking skills.
+LA445,Oliver22,Male,Labrador,2020-05-07,4.4,2021-01-21,2024-07-16,284.71,5,81.67,2.5,0.33,2024-07-16,Oliver was slightly distracted but performed well overall.
+BC446,Rocky26,Male,Border Collie,2017-01-18,7.7,2017-07-02,2019-06-18,397.72,6,60.0,5.1,0.4,2019-06-18,Rocky showed good scent tracking skills.
+GR447,Tucker24,Female,Golden Retriever,2018-06-16,6.3,2018-09-21,2020-01-08,316.91,5,68.73,9.2,0.33,2020-01-08,Tucker was slightly distracted but performed well overall.
+GS448,Maggie15,Male,German Shepherd,2020-10-15,4.0,2021-07-15,2021-11-01,265.11,5,80.31,7.8,0.33,2021-11-01,Maggie was distracted.
+DO449,Rocky27,Male,Doberman,2017-12-09,6.8,2018-10-02,2023-07-21,349.82,6,61.43,5.8,0.4,2023-07-21,Rocky needs to improve attention span.
+DO450,Lucy26,Female,Doberman,2021-09-06,3.1,2022-05-11,2022-10-25,206.43,4,87.16,9.2,0.27,2022-10-25,Lucy was distracted.
+BM451,Maggie16,Female,Belgian Malinois,2019-11-21,4.9,2020-03-26,2020-05-06,292.12,5,78.39,6.2,0.33,2020-05-06,Maggie was distracted.
+RO452,Max16,Female,Rottweiler,2020-06-22,4.3,2020-12-30,2023-05-16,255.74,5,75.05,6.9,0.33,2023-05-16,Max performed exceptionally well.
+BM453,Bailey29,Female,Belgian Malinois,2018-09-05,6.1,2019-08-14,2021-03-30,348.42,6,68.47,2.8,0.4,2021-03-30,Bailey needs more focus.
+RO454,Sadie24,Male,Rottweiler,2018-08-17,6.1,2019-06-29,2022-09-07,328.1,5,74.39,6.2,0.33,2022-09-07,Sadie was slightly distracted but performed well overall.
+GS455,Buddy20,Male,German Shepherd,2017-10-08,7.0,2018-01-28,2019-04-13,351.08,6,64.01,4.0,0.4,2019-04-13,Buddy needs more focus.
+BC456,Charlie25,Male,Border Collie,2018-06-01,6.4,2019-05-22,2019-07-01,352.17,6,71.23,5.2,0.4,2019-07-01,Charlie showed good scent tracking skills.
+PO457,Cooper19,Male,Poodle,2019-10-30,4.9,2020-03-21,2022-05-19,266.95,5,70.88,4.5,0.33,2022-05-19,Cooper was slightly distracted but performed well overall.
+BC458,Molly21,Female,Border Collie,2022-02-18,2.6,2022-06-17,2024-05-02,197.27,3,82.11,8.7,0.2,2024-05-02,Molly needs more focus.
+BM459,Bear20,Male,Belgian Malinois,2017-01-19,7.7,2017-11-09,2020-07-14,393.36,6,63.24,4.2,0.4,2020-07-14,Bear showed improvement.
+GS460,Cooper20,Female,German Shepherd,2018-04-19,6.5,2018-11-15,2023-05-21,339.97,6,64.5,1.1,0.4,2023-05-21,Cooper was distracted.
+GR461,Bailey30,Female,Golden Retriever,2018-11-16,5.9,2019-06-11,2024-02-05,312.31,5,71.56,2.8,0.33,2024-02-05,Bailey was slightly distracted but performed well overall.
+BC462,Max17,Female,Border Collie,2020-10-25,4.0,2021-06-20,2024-05-21,234.26,4,75.72,3.6,0.27,2024-05-21,Max was distracted.
+RO463,Jack30,Female,Rottweiler,2017-10-24,7.0,2018-06-04,2023-12-05,373.3,6,67.57,9.7,0.4,2023-12-05,Jack showed great agility and focus.
+DO464,Stella28,Male,Doberman,2017-05-16,7.4,2017-08-13,2020-08-03,360.2,6,64.34,9.9,0.4,2020-08-03,Stella needs to improve attention span.
+HU465,Daisy25,Female,Husky,2016-12-26,7.8,2017-10-26,2018-01-03,400.0,6,60.0,3.6,0.4,2018-01-03,Daisy was slightly distracted but performed well overall.
+HU466,Cooper21,Male,Husky,2017-06-08,7.3,2017-12-15,2022-01-01,362.49,6,64.24,2.6,0.4,2022-01-01,Cooper needs to improve attention span.
+DO467,Bear21,Male,Doberman,2020-01-24,4.7,2020-07-07,2021-10-03,265.42,5,79.85,8.5,0.33,2021-10-03,Bear was highly energetic and responsive.
+GS468,Buddy21,Male,German Shepherd,2021-11-24,2.9,2022-09-02,2024-06-21,189.01,3,89.07,9.6,0.2,2024-06-21,Buddy showed great agility and focus.
+HU469,Maggie17,Female,Husky,2017-04-04,7.5,2018-02-22,2021-04-22,380.88,6,67.34,9.2,0.4,2021-04-22,Maggie performed exceptionally well.
+PO470,Tucker25,Male,Poodle,2022-03-04,2.6,2022-12-28,2024-04-04,196.63,3,87.41,5.5,0.2,2024-04-04,Tucker was slightly distracted but performed well overall.
+GS471,Lola22,Male,German Shepherd,2016-12-19,7.8,2017-09-10,2021-04-24,400.0,6,60.0,2.9,0.4,2021-04-24,Lola showed good scent tracking skills.
+GR472,Bella28,Female,Golden Retriever,2019-11-13,4.9,2020-03-17,2023-05-14,274.26,5,73.19,9.6,0.33,2023-05-14,Bella was highly energetic and responsive.
+HU473,Duke21,Female,Husky,2018-01-09,6.8,2018-05-26,2023-03-07,363.03,6,64.72,8.7,0.4,2023-03-07,Duke performed exceptionally well.
+DO474,Duke22,Male,Doberman,2020-03-19,4.6,2020-06-08,2024-07-23,263.3,5,74.36,4.9,0.33,2024-07-23,Duke was slightly distracted but performed well overall.
+BE475,Rocky28,Male,Beagle,2017-06-22,7.3,2017-07-26,2019-08-18,370.61,6,60.0,9.0,0.4,2019-08-18,Rocky needs more focus.
+RO476,Bella29,Female,Rottweiler,2019-06-01,5.4,2019-11-06,2023-01-30,316.84,5,68.48,1.9,0.33,2023-01-30,Bella executed commands flawlessly.
+LA477,Bear22,Female,Labrador,2017-06-08,7.3,2018-05-26,2019-07-24,371.74,6,61.85,4.2,0.4,2019-07-24,Bear needs more focus.
+RO478,Jack31,Female,Rottweiler,2022-07-22,2.2,2023-03-19,2023-08-20,176.54,3,90.8,6.5,0.2,2023-08-20,Jack showed good scent tracking skills.
+BC479,Bailey31,Male,Border Collie,2019-08-03,5.2,2020-03-01,2022-01-25,301.93,5,73.87,7.6,0.33,2022-01-25,Bailey was distracted.
+PO480,Maggie18,Female,Poodle,2017-07-30,7.2,2018-07-18,2020-04-01,384.73,6,65.41,9.4,0.4,2020-04-01,Maggie was slightly distracted but performed well overall.
+BC481,Stella29,Female,Border Collie,2021-12-23,2.8,2022-03-03,2022-09-14,198.75,3,84.13,6.9,0.2,2022-09-14,Stella performed exceptionally well.
+BC482,Lucy27,Female,Border Collie,2017-10-15,7.0,2018-05-18,2024-04-19,381.12,6,64.14,2.7,0.4,2024-04-19,Lucy showed improvement.
+GS483,Tucker26,Female,German Shepherd,2021-11-18,2.9,2022-04-04,2022-10-21,204.63,4,81.46,9.4,0.27,2022-10-21,Tucker showed great agility and focus.
+RO484,Charlie26,Male,Rottweiler,2018-04-29,6.5,2019-02-21,2023-07-06,363.59,6,63.54,6.6,0.4,2023-07-06,Charlie was distracted.
+PO485,Oliver23,Male,Poodle,2020-01-02,4.8,2020-06-25,2023-01-18,285.06,5,72.31,8.5,0.33,2023-01-18,Oliver showed improvement.
+LA486,Luna23,Female,Labrador,2017-06-09,7.3,2018-03-05,2024-04-26,391.14,6,63.99,2.2,0.4,2024-04-26,Luna needs more focus.
+GS487,Stella30,Female,German Shepherd,2017-11-25,6.9,2018-09-19,2022-04-09,375.11,6,65.32,3.0,0.4,2022-04-09,Stella was distracted.
+DO488,Oliver24,Female,Doberman,2018-02-26,6.6,2018-08-08,2020-06-05,339.64,6,62.0,8.3,0.4,2020-06-05,Oliver executed commands flawlessly.
+HU489,Oliver25,Female,Husky,2022-09-07,2.1,2023-06-15,2024-08-04,177.83,3,84.59,4.9,0.2,2024-08-04,Oliver performed exceptionally well.
+BC490,Tucker27,Male,Border Collie,2018-08-03,6.2,2018-12-07,2023-08-19,347.79,6,68.37,3.2,0.4,2023-08-19,Tucker was slightly distracted but performed well overall.
+PO491,Tucker28,Female,Poodle,2021-11-21,2.9,2022-07-25,2024-05-25,198.33,3,88.15,9.2,0.2,2024-05-25,Tucker performed exceptionally well.
+BM492,Bailey32,Female,Belgian Malinois,2018-02-23,6.6,2018-06-29,2019-05-05,334.8,6,64.9,6.7,0.4,2019-05-05,Bailey showed good scent tracking skills.
+DO493,Jack32,Female,Doberman,2020-09-02,4.1,2021-03-15,2021-05-23,239.84,4,84.2,1.2,0.27,2021-05-23,Jack was distracted.
+BM494,Jack33,Male,Belgian Malinois,2017-11-11,6.9,2017-12-15,2020-08-24,342.36,6,60.65,3.0,0.4,2020-08-24,Jack was slightly distracted but performed well overall.
+BM495,Sadie25,Female,Belgian Malinois,2017-07-30,7.2,2017-09-14,2021-06-27,353.21,6,66.51,2.3,0.4,2021-06-27,Sadie performed exceptionally well.
+PO496,Cooper22,Female,Poodle,2020-09-28,4.0,2021-02-03,2022-07-30,262.69,5,83.28,2.1,0.33,2022-07-30,Cooper needs to improve attention span.
+PO497,Lola23,Male,Poodle,2022-05-27,2.4,2022-10-05,2024-02-18,199.41,3,83.94,7.0,0.2,2024-02-18,Lola needs to improve attention span.
+DO498,Lucy28,Female,Doberman,2019-02-26,5.6,2019-06-17,2023-01-25,319.13,5,74.45,5.9,0.33,2023-01-25,Lucy was distracted.
+BM499,Sadie26,Female,Belgian Malinois,2020-07-20,4.2,2021-02-19,2021-07-05,272.05,5,76.18,2.0,0.33,2021-07-05,Sadie was slightly distracted but performed well overall.
+HU500,Max18,Male,Husky,2019-09-07,5.1,2020-08-01,2021-05-03,287.08,5,71.93,9.7,0.33,2021-05-03,Max showed good scent tracking skills.
